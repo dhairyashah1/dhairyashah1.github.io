@@ -75,7 +75,8 @@ function DegreeCard(props) {
             style={{
               maxWidth: "100%",
               maxHeight: "100%",
-              transform: "scale(-50%, -50%)",
+              borderRadius: "20%",
+              transform: "scale(50%, 50%)",
             }}
             src={require(`../../assets/images/${degree.logo_path}`)}
             alt={degree.alt_name}
@@ -95,6 +96,10 @@ function DegreeCard(props) {
               <h3 className="card-subtitle" style={{ color: "#FFFFFF" }}>
                 {degree.subtitle}
               </h3>
+
+              <h4 className="card-subtitle" style={{ color: "#0F0F0F" }}>
+                {degree.score}
+              </h4>
             </div>
             <div className="body-header-duration">
               <h3 className="duration" style={{ color: "#FFFFFF" }}>

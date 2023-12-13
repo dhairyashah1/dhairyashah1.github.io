@@ -9,52 +9,38 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
+  title: "Dhairya Shah",
   title2: "Dhairya",
   logo_name: "dhairya.shah{}",
   nickname: "djshah / dhairya",
   full_name: "Dhairya Shah",
   subTitle:
-    "Embedded Systems, IoT, Industrial Automation, PCB Design, Open Source and Electronics Enthusiast 🔥. Learning and Improvizing.",
+    "Embedded Systems, Networked Systems, IoT and Wireless Communication Enthusiast",
   resumeLink:
-    "https://drive.google.com/file/d/1l0KoOb0RDh604qwyyo_fKhh6gSTo0yjr/view?usp=sharing",
+    "https://drive.google.com/file/d/1CPx9sF3uSYC3JtuuTCKX0MuT0YudsMYj/view?usp=sharing",
   mail: "mailto:dhairyashah110501@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/dhairyashah1",
-  linkedin: "https://www.linkedin.com/in/dhairya-shah-489a4b14b/",
+  linkedin: "https://www.linkedin.com/in/dhairya-j-shah/",
   gmail: "dhairyashah110501@gmail.com",
   gitlab: "https://gitlab.com/dhairyashah1",
   facebook: "https://www.facebook.com/dhairya.shah.110501/",
   twitter: "https://twitter.com/Dhairya110501",
-  instagram: "https://www.instagram.com/dhaairyashaah.11/",
+  instagram: "https://www.instagram.com/dhaairya_shaah/",
 };
 
 const skills = {
   data: [
     {
-      title: "Embedded IoT Developer",
+      title: "Embedded Systems and Communications Researcher",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Utilising and diving deep into Embedded Systems for solving real-life problems",
-        "⚡ Establising wireless connections among devices using IoT",
-        "⚡ Learning and Implementing Computer Networking Protocols",
-        "⚡ Integrating applications using IoT",
-        "⚡ Testing and creating electronic hardware applications",
-        "⚡ Exploring and researching on RISC-V Processors, FPGA's, Industrial Automation and IIoT",
-        "⚡ Optimizing algorithms, systems and processes using Edge-Computing",
-        "⚡ Learning, researching and emulating ...",
+        "I am interested in developing low-power and efficient embedded communication systems for various applications. I have decent amount of research and industry experience. Currently, I'm working as a Research Assistant under Prof. Ambuj Varshney at the National University of Singapore. Previously, I have worked at EPFL, ETS Montreal and Espressif Systems.",
       ],
       softwareSkills: [
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
         {
           skillName: "C",
           fontAwesomeClassname: "simple-icons:c",
@@ -67,6 +53,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
             color: "#E94E32",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            color: "#3776AB",
           },
         },
         {
@@ -119,27 +112,27 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "Firefox",
-          fontAwesomeClassname: "simple-icons:firefox",
-          style: {
-            color: "#FF7139",
-          },
-        },
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
+        // {
+        //   skillName: "Firefox",
+        //   fontAwesomeClassname: "simple-icons:firefox",
+        //   style: {
+        //     color: "#FF7139",
+        //   },
+        // },
+        // {
+        //   skillName: "HTML5",
+        //   fontAwesomeClassname: "simple-icons:html5",
+        //   style: {
+        //     color: "#E34F26",
+        //   },
+        // },
+        // {
+        //   skillName: "CSS3",
+        //   fontAwesomeClassname: "fa-css3",
+        //   style: {
+        //     color: "#1572B6",
+        //   },
+        // },
 
         // {
         //   skillName: "PHP",
@@ -346,17 +339,16 @@ const degrees = {
       title: "Veermata Jijabai Technological Institute",
       subtitle:
         "Bachelor of Technology (B.Tech) in Electronics and Telecommunication Engineering",
-      score: "CGPA: 9.9/10 (Rank 1)",
+      score: "CGPA: 9.75/10 (University Rank: 1; Class Rank: 1/84)",
       logo_path: "vjti.png",
       alt_name: "VJTI",
-      duration: "2019 - Present",
+      duration: "2019 - 2023",
       descriptions: [
-        "⚡ I am currently in my 3rd year of pursuing Bachelors.",
-        "⚡ Relevant Coursework: Digital Signal Processing, Computer Networks, Embedded Systems, Microprocessors & Microcontrollers, Linear Algebra, Communications Systems, Electronic Circuit Analysis, Digital Logic Design. ",
-        "⚡ I have implemented several projects based on what I've learnt under my courses. ",
-        "⚡ I am the current Jt. General Secretary at Society of Robotics and Automation, SRA-VJTI.",
-        "⚡ I have managed, mentored and co-conducted workshops, seminars and projects for junior freshmen students.",
-        "⚡ I am ranked the best academic performer in Electrical Engineering Department.",
+        "⚡ Relevant Coursework: Embedded Systems, Computer Networks, Microprocessors & Microcontrollers, Wireless Communications & Networks, C++ & Python Programming, Data Science, Data Structures & Algorithms, VLSI Design, Digital Signal Processing & Systems, E-Security, Electronic Circuit Analysis, Digital Circuit Design, etc.",
+        // "⚡ I have implemented several projects based on what I've learnt under my courses. ",
+        "⚡ Served as Jt. General Secretary of a premier student-led club, Society of Robotics and Automation, SRA-VJTI.",
+        "⚡ I have managed, mentored and co-conducted workshops, seminars and projects for over 400 students.",
+        "⚡ I have won several fellowships, schlolarshipas and awards throughout my Bachelor's journey",
       ],
       website_link: "https://vjti.ac.in/",
     },
@@ -383,7 +375,7 @@ const degrees = {
       duration: "2005 - 2018",
       descriptions: [
         "⚡ I have done basic schooling courses like Mathematics, Science, Political Sciences, History and Geography.",
-        "⚡ I stood amongst the Top 10 academic performers throughout in School.",
+        "⚡ I stood amongst the Top 3 academic performers throughout in School.",
       ],
       website_link: "https://ves.ac.in/svhs/",
     },

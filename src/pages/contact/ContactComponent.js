@@ -68,15 +68,15 @@ function Contact(props) {
               >
                 {blogSection["subtitle"]}
               </p>
-              <div className="blogsite-btn-div">
+              {/* <div className="blogsite-btn-div">
                 <a {...styles} className="general-btn" href={blogSection.link}>
                   My Twitter Profile
                 </a>
-              </div>
+              </div> */}
             </div>
-            <div className="blog-heading-img-div">
+            {/* <div className="blog-heading-img-div">
               <BlogsImg theme={theme} />
-            </div>
+            </div> */}
           </div>
         </Fade>
       </div>

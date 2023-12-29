@@ -267,9 +267,9 @@ const skills = {
     //   title: "Cloud Infra-Architecture",
     //   fileName: "CloudInfraImg",
     //   skills: [
-    //     "⚡ Experience working on multiple cloud platforms",
-    //     "⚡ Experience hosting and managing websites",
-    //     "⚡ Experience with Continuous Integration",
+    //     "• Experience working on multiple cloud platforms",
+    //     "• Experience hosting and managing websites",
+    //     "• Experience with Continuous Integration",
     //   ],
     //   softwareSkills: [
     //     {
@@ -344,11 +344,11 @@ const degrees = {
       alt_name: "VJTI",
       duration: "2019 - 2023",
       descriptions: [
-        "⚡ Relevant Coursework: Embedded Systems, Computer Networks, Microprocessors & Microcontrollers, Wireless Communications & Networks, C++ & Python Programming, Data Science, Data Structures & Algorithms, VLSI Design, Digital Signal Processing & Systems, E-Security, Electronic Circuit Analysis, Digital Circuit Design, etc.",
-        // "⚡ I have implemented several projects based on what I've learnt under my courses. ",
-        "⚡ Served as Jt. General Secretary of a premier student-led club, Society of Robotics and Automation, SRA-VJTI.",
-        "⚡ I have managed, mentored and co-conducted workshops, seminars and projects for over 400 students.",
-        "⚡ I have won several fellowships, schlolarshipas and awards throughout my Bachelor's journey",
+        "• Relevant Coursework: Embedded Systems, Computer Networks, Microprocessors & Microcontrollers, Wireless Communications & Networks, C++ & Python Programming, Data Science, Data Structures & Algorithms, VLSI Design, Digital Signal Processing & Systems, E-Security, Electronic Circuit Analysis, Digital Circuit Design, etc.",
+        // "• I have implemented several projects based on what I've learnt under my courses. ",
+        "• Served as Jt. General Secretary of a premier student-led club, Society of Robotics and Automation, SRA-VJTI.",
+        "• I have managed, mentored and co-conducted workshops, seminars and projects for over 400 students.",
+        "• I have won several fellowships, schlolarshipas and awards throughout my Bachelor's journey",
       ],
       website_link: "https://vjti.ac.in/",
     },
@@ -360,9 +360,9 @@ const degrees = {
       alt_name: "VNJC",
       duration: "2017 - 2019",
       descriptions: [
-        "⚡ I have completed Junior College Science Courses - Physics, Chemistry, Mathematics, Computers and Electronics",
-        "⚡ I have implemented and emulated basic electronics concepts through mini projects. ",
-        "⚡ I stood amongst the Top 5 academic performers throughout in SCollege.",
+        "• I have completed Junior College Science Courses - Physics, Chemistry, Mathematics, Computers and Electronics",
+        "• I have implemented and emulated basic electronics concepts through mini projects. ",
+        "• I stood amongst the Top 5 academic performers throughout in SCollege.",
       ],
       website_link: "http://vndc.co.in/",
     },
@@ -374,8 +374,8 @@ const degrees = {
       alt_name: "SVHS",
       duration: "2005 - 2018",
       descriptions: [
-        "⚡ I have done basic schooling courses like Mathematics, Science, Political Sciences, History and Geography.",
-        "⚡ I stood amongst the Top 3 academic performers throughout in School.",
+        "• I have done basic schooling courses like Mathematics, Science, Political Sciences, History and Geography.",
+        "• I stood amongst the Top 3 academic performers throughout in School.",
       ],
       website_link: "https://ves.ac.in/svhs/",
     },
@@ -493,114 +493,188 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Research, Industrial Undertakings and Volunteership",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I have developed decent amount of experience through various research, industry and personal projects.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work Experience",
+      title: "Research Experience",
       experiences: [
         {
-          title: "Full Stack Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "https://valora-infotech.business.site/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Office",
-          description: `Train, manage and provide guidance to junior software development staff.
-          Work closely with the Project Manager and Team Leads on change request functions.
-          Develops new and maintains existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
+          title: "Research Assistant, CS Department under Prof. Ambuj Varshney",
+          company:
+            "WEISER Group, School of Computing, National University of Singapore",
+          company_url: "https://weiserlab.github.io/ambuj/",
+          logo_path: "nus.png",
+          duration: "Nov 2023 - Present",
+          location: "Singapore",
+          descriptions: [
+            "• Leading the design, development and testing of ultra low-power RF communication & mobile systems",
+            "• Developed a low-power embedded-AI camera system. Publication under review at ACM MobiSys 2024",
+            "• Successfully developed a low-power FM radio transceiver system using commodity MCUs without extensive, hardware overhead achieving a range of 30 - 40 m. Publication under review at ACM CoNEXT 2024.",
+          ],
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
         {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
-          description: `Work closely with the Client and Team on change request functions.
-          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          title: "Summer@EPFL Research Intern under Prof. Haitham Al Hassanieh",
+          company: "SENS Lab, École Polytechnique Fédérale de Lausanne",
+          company_url: "https://www.epfl.ch/labs/sens/",
+          logo_path: "epfl.png",
+          duration: "Jun 2023 - Sept 2023",
+          location: "Lausanne, Switzerland",
+          descriptions: [
+            "• Spearheaded the design, development, & calibration of a software-defined radio system using a phased-array antenna frontend and USRP backend for Joint Communication & Sensing on mmWave GHz frequencies",
+            "• Designed various beam books for generating beam patterns concentric to specific beam transmission angles",
+            "• Achieved fast beam steering over 63 antenna beams in just 1.26 seconds i.e 20 ms/beam",
+            "• Awarded fellowship through the highly selective Summer@EPFL program being top 1% of all applicants",
+          ],
+          color: "#ee3c26",
+        },
+        {
+          title: "Mitacs Globalink Research Intern under Prof. Jérémie Voix",
+          company: "CRITIAS Lab, École de Technologie Supérieure ÉTS",
+          company_url: "http://critias.etsmtl.ca/",
+          logo_path: "ets_mtl.png",
+          duration: "May 2022 - Aug 2022",
+          location: "Montreal, Canada",
+          descriptions: [
+            "• Developed a real-time, multi-stream synchronization platform for bio-sensor data—audio, ECG, PPG, etc.",
+            "• Integrated and co-designed BramsBioBox —a network of Raspberry Pi, Teensy, & ESP32 over WiFi to study the acoustic aspects and neurological states of several musicians in an orchestra",
+            "• Awarded the Mitacs Globalink Research Fellowship and Graduate Fellowship worth US $11000",
+            "• Contributed to publishing a Research Paper in the Canadian Acoustics Journal—AWC 2022",
+          ],
+          color: "#ee3c26",
+        },
+        {
+          title: "Automation and IIoT Research Intern under Prof. Faruk Kazi",
+          company: "Centre of Excellence: COE - CNDS Lab, VJTI",
+          company_url: "https://vjti.ac.in/coe-cnds/",
+          logo_path: "vjti.png",
+          duration: "May 2021 - Dec 2021",
+          location: "Mumbai, India",
+          descriptions: [
+            "• Created Pick, Sort, & Place Bot (PSP), a 3-axis gantry-based economical, industrial solution for automated pick-place and packaging using a 30% more efficient algorithm",
+            "• Integrated software with a network of industrial automation components— PLC, HMI, IIoT router, etc",
+            "• Achieved Rank 2 worldwide in the Delta Cup 2021 securing a US $25000+ hardware research grant",
+          ],
           color: "#ee3c26",
         },
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Industrial Experience",
       experiences: [
         {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+          title: "Embedded Software Intern: Matter Protocol Development Team",
+          company: "Espressif Systems India Pvt. Ltd.",
+          company_url: "https://www.espressif.com/en",
+          logo_path: "espressif.png",
+          duration: "Dec 2022 - June 2023",
+          location: "Pune, India",
+          descriptions: [
+            "• Provided firmware and SDK support for Espressif’s Matter enabled smart IoT devices",
+            "• Solved existing issues in esp-matter and provided feature requests for matter devices",
+          ],
           color: "#4285F4",
         },
         {
-          title: "Campus Hustler",
-          company: "Skillenza",
-          company_url: "https://skillenza.com/",
-          logo_path: "skillenza.png",
-          duration: "Feb 2021 - Present",
-          location: "Work from Home",
-          description:
-            "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-          color: "#196acf",
+          title: "Open Source Developer: PLCT Lab, ISCAS",
+          company: "The Linux Foundation Mentorship with RISC-V",
+          company_url:
+            "https://mentorship.lfx.linuxfoundation.org/project/fb9e1ba6-d6ed-40b5-82b5-ee1089ef050a",
+          logo_path: "riscv.jpg",
+          duration: "Sept 2021 - Nov 2021",
+          location: "Mumbai, India",
+          descriptions: [
+            "• Worked on porting Spidermonkey’s Baseline JIT Compiler to RISC-V RV64GC ISA",
+            "• Cross-compiled Spidermonkey— Mozilla Firefox’s JS & Web Engine on RV64GC Fedora Linux",
+            "• Performed regression tests and benchmarked results using Octane, Kraken, SunSpider benchmarks on x86 and SiFive Unmatched004 RISC-V FPGA",
+            // "• Solved existing issues in esp-matter and provided feature requests for matter devices",
+          ],
+          color: "#4285F4",
         },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
-        },
+        // {
+        //   title: "Embedded Software Intern: Matter Protocol Development Team",
+        //   company: "Magnes Motors Pvt. Ltd.",
+        //   company_url: "https://www.espressif.com/en",
+        //   logo_path: "espressif.png",
+        //   duration: "Dec 2022 - June 2023",
+        //   location: "Pune, India",
+        //   descriptions: [
+        //     "• Provided firmware and SDK support for Espressif’s Matter enabled smart IoT devices",
+        //     "• Solved existing issues in esp-matter and provided feature requests for matter devices",
+        //   ],
+        //   color: "#4285F4",
+        // },
+        //   title: "Embedded Software Intern: Matter Protocol Development Team",
+        //   company: "Magnes Motors Pvt. Ltd.",
+        //   company_url: "https://www.espressif.com/en",
+        //   logo_path: "espressif.png",
+        //   duration: "Dec 2022 - June 2023",
+        //   location: "Pune, India",
+        //   descriptions: [
+        //     "• Provided firmware and SDK support for Espressif’s Matter enabled smart IoT devices",
+        //     "• Solved existing issues in esp-matter and provided feature requests for matter devices",
+        //   ],
+        //   color: "#4285F4",
+        // },
+        //   {
+        //     title: "Campus Hustler",
+        //     company: "Skillenza",
+        //     company_url: "https://skillenza.com/",
+        //     logo_path: "skillenza.png",
+        //     duration: "Feb 2021 - Present",
+        //     location: "Work from Home",
+        //     description:
+        //       "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
+        //     color: "#196acf",
+        //   },
+        //   {
+        //     title: "GitHub Student Developer",
+        //     company: "GitHub",
+        //     company_url: "https://github.com/",
+        //     logo_path: "github.png",
+        //     duration: "Nov 2019 - Present",
+        //     location: "Work from Home",
+        //     description:
+        //       "Contribute to Open Source Community and Open Source Project.",
+        //     color: "#040f26",
+        //   },
+        //   {
+        //     title: "Google Local Guide",
+        //     company: "Google Map",
+        //     company_url: "https://maps.google.com/localguides/",
+        //     logo_path: "localguide.png",
+        //     duration: "Sep 2018 - Present",
+        //     location: "Work From Home",
+        //     description:
+        //       "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
+        //     color: "#D83B01",
+        //   },
+        //   {
+        //     title: "GDG Student Volunteer",
+        //     company: "Google Developer Groups",
+        //     company_url: "https://gdg.community.dev/",
+        //     logo_path: "gdg.png",
+        //     duration: "Feb 2021 - Present",
+        //     location: "Work From Home",
+        //     description:
+        //       "Google Developer Group Surat Student Volunteer and Member.",
+        //     color: "#D83B01",
+        //   },
+        //   {
+        //     title: "E. F. I. Student Volunteer",
+        //     company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
+        //     company_url: "https://indiaenvironment.org/",
+        //     logo_path: "efi.png",
+        //     duration: "Apr 2017 - Present",
+        //     location: "Work From Home",
+        //     description:
+        //       "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+        //     color: "#5a900f",
+        //   },
       ],
     },
   ],
@@ -610,7 +684,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -618,335 +692,335 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "dhairya.jpeg",
+    profile_image_path: "dhairya.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I frequently write Blogs, tend to document my learnings and conclusions. View them here.",
-    link: "",
-    avatar_image_path: "blogs_image.svg",
+    //   title: "Blogs",
+    //   subtitle:
+    //     "I frequently write Blogs, tend to document my learnings and conclusions. View them here.",
+    //   link: "",
+    //   avatar_image_path: "blogs_image.svg",
   },
 };
 
 const projects = {
   data: [
-    {
-      id: "0",
-      name: "AutomateInstaPyBot",
-      url: "https://github.com/harikanani/AutomateInstaPyBot",
-      description:
-        "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "1",
-      name: "react-twitter-clone",
-      url: "https://github.com/harikanani/react-twitter-clone",
-      description:
-        "A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      id: "2",
-      name: "node-blockchain",
-      url: "https://github.com/harikanani/node-blockchain",
-      description:
-        "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "TypeScript",
-          iconifyClass: "logos-typescript",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "top-crypto-gainers",
-      url: "https://github.com/harikanani/top-crypto-gainers",
-      description:
-        "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "personal-portfolio",
-      url: "https://github.com/harikanani/personal-portfolio",
-      description:
-        "A simple command line interface based quiz app to know more about me :).",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "node_express_crud_api_starter",
-      url: "https://github.com/harikanani/node_express_crud_api_starter",
-      description: "Simple NodeJS Express CRUD Operations API starter.",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "node-web-scrapper",
-      url: "https://github.com/harikanani/node-web-scrapper",
-      description:
-        "A Simple web scrapper that scrap the information of amazon products such as price.It also scrap Wikipedia Data such as birthdate.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "harikanani.github.io",
-      url: "https://github.com/harikanani/harikanani.github.io",
-      description:
-        "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Automate Attendace",
-      url: "https://github.com/harikanani/Node_Python",
-      description: "Automation of Online Attendance using node js and python",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Automate Discord Bot",
-      url: "https://github.com/harikanani/AutomateDiscordBot",
-      description:
-        "A Discord Bot to send Automatic messages to serer channel in regular time difference.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Python Selenium",
-          iconifyClass: "logos-selenium",
-        },
-        {
-          name: "Chromium Browser",
-          iconifyClass: "openmoji-chromium",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Flask Blog",
-      url: "https://github.com/harikanani/flask_blog",
-      description: "A Simple Blog Web Application made using Flask Framework",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Netflix top series",
-      url: "https://github.com/harikanani/netflix-top-series",
-      description: "List of Top Netflix Series which is deployed to vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "COVID-19 Tracker",
-      url: "https://github.com/harikanani/Covid19TrackerReact",
-      description:
-        "Simple Covid-19 Tracker made using React and deployed to Vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Food Order Static Website",
-      url: "https://github.com/harikanani/food-order-website",
-      description:
-        "A simple static website related to food restaurants service. this is reasponsive as well.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "PHP",
-          iconifyClass: "logos-php",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "NFT Launchpad",
-      url: "https://deliquescent-cents.000webhostapp.com/",
-      description: "NFT Launchpad crypto site portfolio",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
+    //   {
+    //     id: "0",
+    //     name: "AutomateInstaPyBot",
+    //     url: "https://github.com/harikanani/AutomateInstaPyBot",
+    //     description:
+    //       "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
+    //     languages: [
+    //       {
+    //         name: "Python",
+    //         iconifyClass: "logos-python",
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: "1",
+    //     name: "react-twitter-clone",
+    //     url: "https://github.com/harikanani/react-twitter-clone",
+    //     description:
+    //       "A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.",
+    //     languages: [
+    //       {
+    //         name: "HTML5",
+    //         iconifyClass: "vscode-icons:file-type-html",
+    //       },
+    //       {
+    //         name: "CSS3",
+    //         iconifyClass: "vscode-icons:file-type-css",
+    //       },
+    //       {
+    //         name: "React",
+    //         iconifyClass: "logos-react",
+    //       },
+    //       {
+    //         name: "Firebase",
+    //         iconifyClass: "logos-firebase",
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: "2",
+    //     name: "node-blockchain",
+    //     url: "https://github.com/harikanani/node-blockchain",
+    //     description:
+    //       "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
+    //     languages: [
+    //       {
+    //         name: "NodeJS",
+    //         iconifyClass: "logos-nodejs",
+    //       },
+    //       {
+    //         name: "TypeScript",
+    //         iconifyClass: "logos-typescript",
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: "3",
+    //     name: "top-crypto-gainers",
+    //     url: "https://github.com/harikanani/top-crypto-gainers",
+    //     description:
+    //       "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
+    //     languages: [
+    //       {
+    //         name: "HTML5",
+    //         iconifyClass: "vscode-icons:file-type-html",
+    //       },
+    //       {
+    //         name: "CSS3",
+    //         iconifyClass: "vscode-icons:file-type-css",
+    //       },
+    //       {
+    //         name: "JavaScript",
+    //         iconifyClass: "logos-javascript",
+    //       },
+    //       {
+    //         name: "ReactJS",
+    //         iconifyClass: "logos-react",
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: "4",
+    //     name: "personal-portfolio",
+    //     url: "https://github.com/harikanani/personal-portfolio",
+    //     description:
+    //       "A simple command line interface based quiz app to know more about me :).",
+    //     languages: [
+    //       {
+    //         name: "JavaScript",
+    //         iconifyClass: "logos-javascript",
+    //       },
+    //       {
+    //         name: "NodeJS",
+    //         iconifyClass: "logos-nodejs",
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     id: "3",
+    //     name: "node_express_crud_api_starter",
+    //     url: "https://github.com/harikanani/node_express_crud_api_starter",
+    //     description: "Simple NodeJS Express CRUD Operations API starter.",
+    //   languages: [
+    //     {
+    //       name: "NodeJS",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "4",
+    //   name: "node-web-scrapper",
+    //   url: "https://github.com/harikanani/node-web-scrapper",
+    //   description:
+    //     "A Simple web scrapper that scrap the information of amazon products such as price.It also scrap Wikipedia Data such as birthdate.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "NodeJs",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "5",
+    //   name: "harikanani.github.io",
+    //   url: "https://github.com/harikanani/harikanani.github.io",
+    //   description:
+    //     "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "SCSS",
+    //       iconifyClass: "vscode-icons:file-type-scss2",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "6",
+    //   name: "Automate Attendace",
+    //   url: "https://github.com/harikanani/Node_Python",
+    //   description: "Automation of Online Attendance using node js and python",
+    //   languages: [
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "7",
+    //   name: "Automate Discord Bot",
+    //   url: "https://github.com/harikanani/AutomateDiscordBot",
+    //   description:
+    //     "A Discord Bot to send Automatic messages to serer channel in regular time difference.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Python Selenium",
+    //       iconifyClass: "logos-selenium",
+    //     },
+    //     {
+    //       name: "Chromium Browser",
+    //       iconifyClass: "openmoji-chromium",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "8",
+    //   name: "Flask Blog",
+    //   url: "https://github.com/harikanani/flask_blog",
+    //   description: "A Simple Blog Web Application made using Flask Framework",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Flask",
+    //       iconifyClass: "cib-flask",
+    //     },
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "9",
+    //   name: "Netflix top series",
+    //   url: "https://github.com/harikanani/netflix-top-series",
+    //   description: "List of Top Netflix Series which is deployed to vercel.",
+    //   languages: [
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "logos-html-5",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "logos-css-3",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "10",
+    //   name: "COVID-19 Tracker",
+    //   url: "https://github.com/harikanani/Covid19TrackerReact",
+    //   description:
+    //     "Simple Covid-19 Tracker made using React and deployed to Vercel.",
+    //   languages: [
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "logos-html-5",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "logos-css-3",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "11",
+    //   name: "Food Order Static Website",
+    //   url: "https://github.com/harikanani/food-order-website",
+    //   description:
+    //     "A simple static website related to food restaurants service. this is reasponsive as well.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "logos-html-5",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "logos-css-3",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "PHP",
+    //       iconifyClass: "logos-php",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "12",
+    //   name: "NFT Launchpad",
+    //   url: "https://deliquescent-cents.000webhostapp.com/",
+    //   description: "NFT Launchpad crypto site portfolio",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "logos-html-5",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "logos-css-3",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //   ],
+    //   },
   ],
 };
 

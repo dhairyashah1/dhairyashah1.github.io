@@ -1,14 +1,19 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - dhairyashah1
+  # - weiserlab
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - weiserlab/audiocast
+  # - weiserlab/hardware
+  - dhairyashah1/BuLet
+  - weiserlab/pixelgen
+  - dhairyashah1/apollo3_power_consumption
+  - dhairyashah1/USBee32-S2
+  - SRA-VJTI/sra-board-hardware-design
+  - SRA-VJTI/TitanLegs
+  - SRA-VJTI/Delta2021
+  - dhairyashah1/BLDC-pcb-design
+  - dhairyashah1/Kalman_Implementation-Arduino-and-ESP32
+

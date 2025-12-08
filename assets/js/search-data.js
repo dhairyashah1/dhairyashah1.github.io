@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Publications by categories in reversed chronological order.",
+          description: "Publications by categories in reversed chronological order. * indicates co-primary authors with equal contributions to the work.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/publications/";

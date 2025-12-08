@@ -1,39 +1,202 @@
+# Full Papers ##################################################
 @article{audiocast25imwut,
-bibtex_show={true},
-abbr={IMWUT},
-author = {Reddy, C. Rajashekar and Shah, Dhairya and Ang, Nobel and Varshney, Ambuj},
-title = {AudioCast: Enabling Ubiquitous Connectivity for Embedded Systems through Audio-broadcasting Low-power Tags},
-year = {2025},
-issue_date = {June 2025},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-volume = {9},
-number = {2},
-url = {https://doi.org/10.1145/3729471},
-doi = {10.1145/3729471},
-abstract = {Wireless connectivity challenges hinder the deployment of embedded systems. We introduce AudioCast to address two critical issues: spectrum scarcity-induced contention and high power consumption in transmitters. The widespread availability of broadcast radio receivers (for example, FM radios using the 88-108 MHz spectrum) and access to underutilized lower-frequency spectrum motivate the design of AudioCast. The lower-frequency spectrum offers superior radio-wave propagation characteristics, exhibiting at least 10x lower path loss than the 2.4 GHz and 5 GHz Industrial, Scientific, and Medical (ISM) bands while avoiding congestion and interference. These properties enable reliable and long-distance communication, even for weakly radiated signals. AudioCast builds on these properties and the unique negative resistance of a tunnel diode.AudioCast rethinks the architecture of radio transmitters using a tunnel diode oscillator to generate carrier signals and self-modulate them with baseband signals. This results in frequency-modulated transmissions at an overall power consumption below 200 μW. Unlike related systems based on the backscatter mechanism, AudioCast does not require an externally generated carrier or rely on ambient signals. We argue that AudioCast represents an example of a new class of transmitters which we conceptualize as Beyond-Backscatter transmitters. Through experiments, we demonstrate that AudioCast achieves a transmission range of up to 130 m in line-of-sight and tens of meters in non-line-of-sight conditions respectively. These transmissions are decodable by ubiquitous commodity FM receivers in cars, homes, and phones. We evaluate AudioCast through theoretical analysis, benchtop experiments, and urban/indoor field deployments. Additionally, we prototype and demonstrate novel applications, including low-power voice transmissions and hand gesture communication, enabled by AudioCast's range and power efficiency.},
-journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
-month = {jun},
-articleno = {27},
-numpages = {32},
-keywords = {Beyond-backscatter transmitters, Embedded systems, FM-broadcast spectrum},
-selected={true}, 
+  bibtex_show={true},
+  selected={true}, 
+  abbr={IMWUT},
+  
+  code = {https://github.com/weiserlab/audiocast},
+  pdf = {audiocast_imwut25.pdf},
+
+  author = {Reddy*, C. Rajashekar and Shah*, Dhairya and Ang, Nobel and Varshney, Ambuj},
+  title = {AudioCast: Enabling Ubiquitous Connectivity for Embedded Systems through Audio-broadcasting Low-power Tags},
+  year = {2025},
+  issue_date = {June 2025},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {9},
+  number = {2},
+  url = {https://doi.org/10.1145/3729471},
+  doi = {10.1145/3729471},
+  abstract = {Wireless connectivity challenges hinder the deployment of embedded systems. We introduce AudioCast to address two critical issues: spectrum scarcity-induced contention and high power consumption in transmitters. The widespread availability of broadcast radio receivers (for example, FM radios using the 88-108 MHz spectrum) and access to underutilized lower-frequency spectrum motivate the design of AudioCast. The lower-frequency spectrum offers superior radio-wave propagation characteristics, exhibiting at least 10x lower path loss than the 2.4 GHz and 5 GHz Industrial, Scientific, and Medical (ISM) bands while avoiding congestion and interference. These properties enable reliable and long-distance communication, even for weakly radiated signals. AudioCast builds on these properties and the unique negative resistance of a tunnel diode.AudioCast rethinks the architecture of radio transmitters using a tunnel diode oscillator to generate carrier signals and self-modulate them with baseband signals. This results in frequency-modulated transmissions at an overall power consumption below 200 μW. Unlike related systems based on the backscatter mechanism, AudioCast does not require an externally generated carrier or rely on ambient signals. We argue that AudioCast represents an example of a new class of transmitters which we conceptualize as Beyond-Backscatter transmitters. Through experiments, we demonstrate that AudioCast achieves a transmission range of up to 130 m in line-of-sight and tens of meters in non-line-of-sight conditions respectively. These transmissions are decodable by ubiquitous commodity FM receivers in cars, homes, and phones. We evaluate AudioCast through theoretical analysis, benchtop experiments, and urban/indoor field deployments. Additionally, we prototype and demonstrate novel applications, including low-power voice transmissions and hand gesture communication, enabled by AudioCast's range and power efficiency.},
+  journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+  month = {jun},
+  articleno = {27},
+  numpages = {32},
+  keywords = {Beyond-backscatter transmitters, Embedded systems, FM-broadcast spectrum},
+}
+
+@INPROCEEDINGS{tunnelsense24rfid,
+  bibtex_show={true},
+  selected={true}, 
+  abbr={RFID},
+
+  author={Thaddeus*, Lim Chang Quan and Reddy*, C. Rajashekar and Bhadauria, Yuvraj Singh and Shah*, Dhairya and Gulati, Manoj and Varshney, Ambuj},
+  booktitle={2024 IEEE International Conference on RFID (RFID)}, 
+  title={TunnelSense: Low-Power, Non-Contact Sensing Using Tunnel Diodes}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={154-159},
+  keywords={Power demand;Tracking;Resonant frequency;Voltage;Receivers;Transceivers;Sensors},
+  doi={10.1109/RFID62091.2024.10582671},
+}
+###################################################
+
+# Workshop Papers ##################################################
+
+@inproceedings{lifiar24mobicom,
+  bibtex_show={true},
+  selected={true}, 
+  abbr={S3 Workshop},
+
+  author = {Shah*, Moteen and Shah*, Dhairya and Medaranga, Pramuka and Varshney, Ambuj},
+  title = {Li-FiAR: Networking Augmented-Reality Devices through Visible Light},
+  year = {2024},
+  isbn = {9798400704895},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3636534.3695899},
+  doi = {10.1145/3636534.3695899},
+  abstract = {We have seen rapid deployment of augmented reality devices. However, these devices currently suffer from limited battery life. They require frequent recharge, especially when capturing and streaming information wirelessly. In particular, these devices stream information over the radio spectrum using transceivers that are power-hungry, and wireless communication dominates the energy budget of these devices. We present our ongoing work to design a system called Li-FiAR, which proposes integrating Li-Fi with augmented reality devices. Specifically, we implement a transmitter and receiver and integrate them with an augmented reality device. We argue that Li-Fi receivers may consume less power than their radio counterparts while benefiting from the spatial nature of light propagation. This enables novel application scenarios for augmented reality. We demonstrate the transmission of images and audio through Li-Fi, presented on an augmented reality device in this work.},
+  booktitle = {Proceedings of the 30th Annual International Conference on Mobile Computing and Networking (MobiCom '24)},
+  pages = {2230–2232},
+  numpages = {3},
+  keywords = {visible light communication, networking, augmented reality},
+  location = {Washington D.C., DC, USA},
+  series = {ACM MobiCom '24},
+}
+
+@inproceedings{pixelgen24mobicom,
+  abbr={ImmerCom Workshop},
+  selected={true}, 
+  bibtex_show={true},
+
+  author = {Li*, Kunjun and Gulati*, Manoj and Shah*, Dhairya and Waskito, Steven and Chakrabarty, Shantanu and Varshney, Ambuj},
+  title = {PixelGen: Rethinking Embedded Cameras for Mixed-Reality},
+  year = {2024},
+  isbn = {9798400704895},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3636534.3696216},
+  doi = {10.1145/3636534.3696216},
+  abstract = {Mixed-reality headsets offer new ways to perceive our environment. They employ visible spectrum cameras to capture and display the environment on screens in front of the user's eyes. However, these cameras lead to limitations. Firstly, they capture only a partial view of the environment. They are positioned to capture whatever is in front of the user, thus creating blind spots during complete immersion and failing to detect events outside the restricted field of view. Secondly, they capture only visible light fields, ignoring other fields like acoustics and radio that are also present in the environment. Finally, these power-hungry cameras rapidly deplete the mixed-reality headset's battery. We introduce PixelGen to rethink embedded cameras for mixed-reality headsets. PixelGen proposes to decouple cameras from the mixed-reality headset and balance resolution and fidelity to minimize the power consumption. It employs low-resolution, monochrome image sensors and environmental sensors to capture the surroundings around the headset. This approach reduces the system's communication bandwidth and power consumption. A transformer-based language and image model process this information to overcome resolution trade-offs, thus generating a higher-resolution representation of the environment. We present initial experiments that show PixelGen's viability.},
+  booktitle = {Proceedings of the 30th Annual International Conference on Mobile Computing and Networking (MobiCom '24)},
+  pages = {2128–2135},
+  numpages = {8},
+  keywords = {embedded systems, networking, large language models},
+  location = {Washington D.C., DC, USA},
+  series = {ACM MobiCom '24},
+}
+###################################################
+
+# Demos ##################################################
+@article{audiocast25ubicomp_demo,
+  bibtex_show={true},
+  abbr={UbiComp Demo},
+
+  author = {Shah*, Dhairya and Reddy*, C. Rajashekar and Varshney, Ambuj},
+  title = {Enabling Low-power Ubiquitous Connectivity for Embedded Systems through Audio-broadcasting Tags},
+  year = {2025},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/},
+  journal = {Companion of the 2025 on ACM International Joint Conference on Pervasive and Ubiquitous Computing},
 }
 
 @article{audiocast25mobisys_demo,
-bibtex_show={true},
-abbr={MobiSys Demo},
-author = {C. Rajashekar Reddy and Shah, Dhairya and Varshney, Ambuj},
-title = {Demo: Enabling Ubiquitous Connectivity for Embedded Systems through Audio-broadcasting Low-power Tags},
-year = {2025},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3711875.3734380},
-doi = {10.1145/3711875.3734380},
-journal = {The 23rd Annual International Conference on Mobile Systems, Applications and Services (MobiSys '25)},
+  bibtex_show={true},
+  abbr={MobiSys Demo},
+  
+  poster = {audiocast_mobisys25_poster.pdf},
+
+  author = {Reddy*, C. Rajashekar and Shah*, Dhairya and Varshney, Ambuj},
+  title = {Demo: Enabling Ubiquitous Connectivity for Embedded Systems through Audio-broadcasting Low-power Tags},
+  year = {2025},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3711875.3734380},
+  doi = {10.1145/3711875.3734380},
+  journal = {The 23rd Annual International Conference on Mobile Systems, Applications and Services (MobiSys '25)},
 }
 
-@book{einstein1920relativity,
+@INPROCEEDINGS{pixelgen24mobicom_demo,
+  bibtex_show={true},
+  abbr={IPSN Demo},
+  award={Best Demo Runner-Up Award},
+
+  author={Li*, Kunjun and Gulati*, Manoj and Shah, Dhairya and Waskito, Steven and Chakrabarty, Shantanu and Varshney, Ambuj},
+  booktitle={2024 23rd ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)}, 
+  title={Demo Abstract: PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={271-272},
+  keywords={Headphones;Visualization;Power demand;Magnetic sensors;Mixed reality;Virtual reality;Sensor phenomena and characterization;Embedded Camera Systems;Mixed Reality;Multimodal AI;Low-power Systems},
+  doi={10.1109/IPSN61024.2024.00036}
+}
+
+@inproceedings{gatehaul24mobicom_demo,
+  bibtex_show={true},
+  abbr={MobiCom Demo},
+
+  author = {Sara, Spanddhana and Shah, Moteen and Shah, Dhairya and Reddy, C. Rajashekar and Varshney, Ambuj},
+  title = {GateHaul: A Gateway Architecture using Backhauling Networks to Address the Connectivity Challenges of Embedded Systems},
+  year = {2024},
+  isbn = {9798400704895},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3636534.3698868},
+  doi = {10.1145/3636534.3698868},
+  abstract = {Significant efforts to address the energy challenges of embedded systems have resulted in the design of new low-power transmitter architectures. These transmitters utilize backscatter or tunnel diode-based mechanisms to enable low-power transmissions by delegating energy-intensive tasks to external infrastructure. However, their widespread adoption is hindered by the need for specialized deployment setups, such as the precise placement of carrier-emitting devices. To overcome this, we are developing GateHaul-a low-cost gateway architecture that provides the required carrier signal, coordinates with other gateways, collects sensor data, and backhauls the information. Notably, GateHaul can backhaul sensor data without conventional networks utilizing emerging opportunistic backhaul networks. We demonstrate an early prototype of GateHaul that collects information from backscatter and conventional devices and backhauls the collected information using Apple's FindMy network.},
+  booktitle = {Proceedings of the 30th Annual International Conference on Mobile Computing and Networking},
+  pages = {1811–1813},
+  numpages = {3},
+  keywords = {gateway, backhaul networks, embedded systems},
+  location = {Washington D.C., DC, USA},
+  series = {ACM MobiCom '24}
+}
+###################################################
+
+# Posters ##################################################
+@inproceedings{llm_wireless24sigcomm_poster,
+  bibtex_show={true},
+  abbr={SigComm Poster},
+
+  author = {Medaranga*, Pramuka and Shah*, Dhairya and Kandala*, Savitha Viswanadh and Varshney, Ambuj},
+  title = {POSTER: Simplifying the Networking of Wireless Embedded Systems using a Large Language Model},
+  year = {2024},
+  isbn = {9798400707179},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3672202.3673752},
+  doi = {10.1145/3672202.3673752},
+  abstract = {Wireless embedded systems have seen rapid growth. Nonetheless, the further growth of these systems is now threatened due to the complexities of programming, networking, and deploying them. Developing embedded systems today is a challenging task primarily due to the vast diversity in radio standards, network stacks, microcontrollers, sensors, and other parts of the embedded system ecosystem. This complexity makes it a task suited only for experts, thus hindering the broader adoption of embedded systems.In this early work, we tackle a particular aspect of this challenge related to the complexities of wireless communication. Specifically, we explore the hypothesis that the emergent properties of large language models could help mitigate the complexities of programming the wireless communication stack. We adopt a complex radio transmitter design based on a backscatter mechanism and explore the generation of the transmitter's logic using state-of-the-art language models. Our exploration leads to insights that, with appropriate prompting, today's state-of-the-art large language models are already capable of generating complex modulation and backscatter logic. This finding warrants further efforts to design language model generated radio transmitters to simplify embedded systems.},
+  booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference: Posters and Demos},
+  pages = {78–80},
+  numpages = {3},
+  keywords = {embedded systems, networking, large language models},
+  location = {Sydney, NSW, Australia},
+  series = {ACM SIGCOMM Posters and Demos '24}
+}
+
+@INPROCEEDINGS{tunnelsense24ipsn_poster,
+  bibtex_show={true},
+  abbr={IPSN Poster},
+
+  author={Bhadauria, Yuvraj Singh and Thaddeus, Lim Chang Quan and Reddy, C. Rajashekar and Gulati, Manoj and Shah, Dhairya and Varshney, Ambuj},
+  booktitle={2024 23rd ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)}, 
+  title={Poster Abstract: Enabling Non-contact, Low-Power Sensing using Tunnel Diodes}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={311-312},
+  keywords={Radio transceivers;Power demand;Sensitivity;Tracking;Resonant frequency;Information processing;Sensor phenomena and characterization;Low-power Sensing;FM backscatter;FM transmitter;Tunnel Diodes;Radio Frequency},
+  doi={10.1109/IPSN61024.2024.00056}
+  }
+
+###################################################
+
+#book{einstein1920relativity,
   title={Relativity: the Special and General Theory},
   author={Einstein, Albert},
   year={1920},
@@ -41,7 +204,7 @@ journal = {The 23rd Annual International Conference on Mobile Systems, Applicati
   html={relativity.html}
 }
 
-@book{einstein1956investigations,
+#book{einstein1956investigations,
   bibtex_show={true},
   title={Investigations on the Theory of the Brownian Movement},
   author={Einstein, Albert},
@@ -50,7 +213,7 @@ journal = {The 23rd Annual International Conference on Mobile Systems, Applicati
   preview={brownian-motion.gif}
 }
 
-@article{einstein1950meaning,
+#article{einstein1950meaning,
   abbr={AJP},
   bibtex_show={true},
   title={The meaning of relativity},
@@ -63,7 +226,7 @@ journal = {The 23rd Annual International Conference on Mobile Systems, Applicati
   publisher={American Association of Physics Teachers}
 }
 
-@article{PhysRev.47.777,
+#article{PhysRev.47.777,
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
   author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
@@ -91,7 +254,7 @@ journal = {The 23rd Annual International Conference on Mobile Systems, Applicati
   inspirehep_id = {3255}
 }
 
-@article{einstein1905molekularkinetischen,
+#article{einstein1905molekularkinetischen,
   title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
   author={Einstein, A.},
   journal={Annalen der physik},
@@ -102,7 +265,7 @@ journal = {The 23rd Annual International Conference on Mobile Systems, Applicati
   publisher={Wiley Online Library}
 }
 
-@article{einstein1905movement,
+#article{einstein1905movement,
   abbr={Ann. Phys.},
   title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
   author={Einstein, A.},
@@ -112,13 +275,13 @@ journal = {The 23rd Annual International Conference on Mobile Systems, Applicati
   year={1905}
 }
 
-@article{einstein1905electrodynamics,
+#article{einstein1905electrodynamics,
   title={On the electrodynamics of moving bodies},
   author={Einstein, A.},
   year={1905}
 }
 
-@Article{einstein1905photoelectriceffect,
+#Article{einstein1905photoelectriceffect,
   bibtex_show={true},
   abbr={Ann. Phys.},
   title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
@@ -134,7 +297,7 @@ journal = {The 23rd Annual International Conference on Mobile Systems, Applicati
   award_name={Nobel Prize}
 }
 
-@book{przibram1967letters,
+#book{przibram1967letters,
   bibtex_show={true},
   title={Letters on wave mechanics},
   author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},

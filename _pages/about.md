@@ -28,15 +28,16 @@ latest_posts:
   limit: 5 # leave blank to include all the blog posts
 ---
 
-I am **Dhairya**, a 1st year Ph.D. student in Computer Science at the School of Computing, National University Singapore (NUS). 
+I am **Dhairya**, a 2nd year Ph.D. student in Computer Science at the School of Computing, National University Singapore (NUS). 
 
-I am part of the [WEISER](https://weiserlab.github.io/ambuj/index) Research Group at NUS and advised by [Prof. Ambuj Varshney](https://ambuj.se). 
+I am part of the [WEISER](https://weiserlab.github.io/ambuj/index) Research Group at NUS, advised by [Prof. Ambuj Varshney](https://ambuj.se). 
 
-Currently, I am interning at [Nokia Bell Labs](https://www.nokia.com/bell-labs/about/locations/cambridge-uk/), UK with the Pervasive & Device Systems Team working with [Dr. Chulhong Min](https://chulhong.github.io) and [Dr. Fahim Kawsar](https://www.fahim-kawsar.net).
+My interests revolve at the intersection of wireless networking, embedded systems and on-device intelligence. My research focuses on designing and developing energy-efficient (microwatt level) and sustainable communication systems (transceivers) primarily enabled by radio-frequency (RF) and optical media, with applications ranging from health monitoring, IoT and mixed-reality devices.  
 
-My interests revolve at the intersection of low-power wireless networks, embedded systems and distributed computing. My research focuses on developing energy-efficient and sustainable communication systems enabled by radio-frequency (RF) and light, with applications in health monitoring, IoT and mixed-reality devices.  
+During my PhD, I have interned at [Nokia Bell Labs](https://www.nokia.com/bell-labs/about/locations/cambridge-uk/), UK with the Pervasive & Device Systems Team working with [Chulhong Min](https://chulhong.github.io) and [Fahim Kawsar](https://www.fahim-kawsar.net).
 
-Previously, I was research intern at the [SENS Lab, EPFL](https://sens.epfl.ch) working on millimeter based joint communication and sensing advised by [Prof. Haitham Al-Hassanieh](https://people.epfl.ch/haitham.alhassanieh) and [Dr. Junfeng Guan](https://jguan.page). I graduated from VJTI (University of Mumbai, India) with a Bachelor of Technology in ECE (University Rank 1). I also have had the opportunity to collaborate and work with amazing people at Espressif Systems, India; ETS Montreal, Canada, etc during my Bachelors.
+
+Previously, I was research intern at the [SENS Lab, EPFL](https://sens.epfl.ch) working on millimeter based joint communication and sensing advised by [Prof. Haitham Al-Hassanieh](https://people.epfl.ch/haitham.alhassanieh) and [Dr. Junfeng Guan](https://jguan.page). I graduated from VJTI (University of Mumbai, India) with a Bachelor of Technology in ECE (University Rank 1). I also have had the opportunity to collaborate and work with amazing people at Espressif Systems, India and ETS Montreal, Canada.
 
 <!-- I work at the intersection of low-power wireless systems, embedded sensing, and mobile computing. My research focuses on designing energy-efficient and scalable communication architectures for next-generation wireless embedded systems, with applications in health monitoring, ubiquitous computing, and the Internet of Things (IoT). I am particularly interested in developing ultra-low-power wireless transmitter-receiver architectures for embedded platforms, aiming to achieve operation at microwatt-level power consumption. -->
 

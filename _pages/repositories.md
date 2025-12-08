@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: Open sourced repositories and contributions to various projects.
+description: <p>Open sourced repositories and contributions to various projects.</p>
 
 # Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
 nav: true

@@ -25,24 +25,24 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
+        },{id: "dropdown-publications",
+              title: "Publications",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/books/";
+                window.location.href = "/publications/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
+            },{id: "dropdown-repositories",
+              title: "Repositories",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/blog/";
+                window.location.href = "/repositories/";
               },
             },{id: "post-a-post-with-plotly-js",
         
@@ -412,16 +412,32 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-graduated-with-a-b-tech-in-ece-rank-1-from-vjti-mumbai",
+          title: 'Graduated with a B.Tech in ECE (Rank 1) from VJTI, Mumbai.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-started-summer-internship-at-sens-lab-epfl-working-on-mmwave-communication-and-sensing",
+          title: 'Started summer internship at SENS Lab, EPFL working on mmWave communication and sensing....',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-started-my-predoctoral-research-assistanship-at-nus-computing-working-with-the-weiser-group",
+          title: 'Started my predoctoral research assistanship at NUS Computing, working with the WEISER Group....',
+          description: "",
+          section: "News",},{id: "news-presented-tunnelsense-at-ieee-rfid-24-held-at-mit-media-labs-usa",
+          title: 'Presented TunnelSense at IEEE RFID ‘24 held at MIT Media Labs, USA.',
+          description: "",
+          section: "News",},{id: "news-continued-my-phd-journey-at-nus-after-receiving-several-great-grad-school-offers",
+          title: 'Continued my PhD journey at NUS after receiving several great grad school offers!...',
+          description: "",
+          section: "News",},{id: "news-presented-lifi-ar-pixelgen-and-gatehaul-at-acm-mobicom-24-held-in-washington-dc-usa",
+          title: 'Presented LiFi-AR, PixelGen and GateHaul at ACM MobiCom ‘24 held in Washington DC,...',
+          description: "",
+          section: "News",},{id: "news-started-summer-internship-at-nokia-bell-labs-uk-working-on-on-device-ai",
+          title: 'Started summer internship at Nokia Bell Labs, UK working on on-device AI.',
+          description: "",
+          section: "News",},{id: "news-presented-audiocast-at-acm-ubicomp-25-held-in-espoo-finland",
+          title: 'Presented AudioCast at ACM UbiComp ‘25 held in Espoo, Finland.',
+          description: "",
+          section: "News",},{id: "news-passed-my-phd-qualifying-exam-amp-gt-officially-a-doctoral-candidate-now",
+          title: 'Passed my PhD Qualifying Exam -&amp;amp;gt; officially a doctoral candidate now!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

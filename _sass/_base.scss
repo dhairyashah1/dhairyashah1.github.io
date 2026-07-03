@@ -703,6 +703,76 @@ footer.sticky-bottom {
 .publications {
   margin-top: 2rem;
 
+  // Publication-type tag (Full Paper / Demo / Short & Workshop) + legend
+  .cat-tag {
+    display: inline-block;
+    padding: 0.12rem 0.6rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+
+    &:hover {
+      opacity: 0.82;
+    }
+  }
+
+  // Venue line: conference tag, type tag, then award pushed to the right
+  .periodical {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.55rem;
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+
+    .award-badge {
+      margin-left: auto;
+    }
+  }
+
+  .periodical .venue {
+    display: inline-block;
+    padding: 0.12rem 0.9rem;
+    background-color: var(--global-theme-color);
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    vertical-align: middle;
+    clip-path: polygon(0.5rem 0, 100% 0, calc(100% - 0.5rem) 100%, 0 100%);
+  }
+
+  .cat-full {
+    background-color: #0f9d58;
+  }
+
+  .cat-demo {
+    background-color: #7c4dff;
+  }
+
+  .cat-workshop {
+    background-color: #e07b39;
+  }
+
+  .publication-legend {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0 1.5rem;
+    font-size: 0.8rem;
+
+    .legend-label {
+      color: var(--global-text-color-light);
+      margin-right: 0.15rem;
+    }
+  }
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -736,6 +806,8 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        width: 100%;
+        height: auto;
       }
 
       .abbr {
@@ -764,6 +836,21 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        font-size: 1.15rem;
+      }
+
+      .award-badge {
+        display: inline-block;
+        margin-left: 0.5rem;
+        padding: 0.05rem 0.7rem;
+        border-radius: 1rem;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #fff;
+        background: linear-gradient(135deg, #e0567a, #c0392b);
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        vertical-align: middle;
       }
 
       .author {

@@ -1,11 +1,46 @@
 # Full Papers ##################################################
-@article{audiocast25imwut,
+@inproceedings{m2_mobisys26,
   bibtex_show={true},
-  selected={true}, 
+  selected={true},
+  abbr={MobiSys},
+  award={Featured Paper (10/302)},
+  pdf = {m2-mobisys26.pdf},
+  preview = {m2_pcb.png},
+
+  author = {Sooriya Patabandige*, Pramuka and Shah*, Dhairya and Reddy, C. Rajashekar and Sara, Spanddhana and Dutta, Prabal and Varshney, Ambuj},
+  title = {Microwatt Microwave (M²) Oscillator: Going Beyond the Delegation Architecture of Low-power Wireless Communication},
+  year = {2026},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3745756.3809248},
+  doi = {10.1145/3745756.3809248},
+  booktitle = {Proceedings of the 24th Annual International Conference on Mobile Systems, Applications and Services (MobiSys '26)},
+  pages = {941--959},
+  series = {ACM MobiSys '26},
+}
+
+@INPROCEEDINGS{hilo_rfid26,
+  bibtex_show={true},
+  selected={true},
+  abbr={RFID},
+  pdf = {hilo-rfid26.pdf},
+  preview = {hilo_pcb.png},
+
+  author = {Shah, Dhairya and Reddy, C. Rajashekar and Medaranga, Pramuka and Varshney, Ambuj},
+  title = {HILO: Enabling Low-power, Dual-Band Communication using Tunnel Diode Oscillators},
+  year = {2026},
+  booktitle = {2026 IEEE International Conference on RFID (RFID)},
+  series={IEEE RFID '26}
+}
+
+@article{audiocast_imwut25,
+  bibtex_show={true},
+  preview = {audiocast_pcb.png},
+  selected={true},
   abbr={IMWUT},
-  
+
   code = {https://github.com/weiserlab/audiocast},
-  pdf = {audiocast_imwut25.pdf},
+  pdf = {audiocast-imwut25.pdf},
 
   author = {Reddy*, C. Rajashekar and Shah*, Dhairya and Ang, Nobel and Varshney, Ambuj},
   title = {AudioCast: Enabling Ubiquitous Connectivity for Embedded Systems through Audio-broadcasting Low-power Tags},
@@ -19,20 +54,24 @@
   doi = {10.1145/3729471},
   abstract = {Wireless connectivity challenges hinder the deployment of embedded systems. We introduce AudioCast to address two critical issues: spectrum scarcity-induced contention and high power consumption in transmitters. The widespread availability of broadcast radio receivers (for example, FM radios using the 88-108 MHz spectrum) and access to underutilized lower-frequency spectrum motivate the design of AudioCast. The lower-frequency spectrum offers superior radio-wave propagation characteristics, exhibiting at least 10x lower path loss than the 2.4 GHz and 5 GHz Industrial, Scientific, and Medical (ISM) bands while avoiding congestion and interference. These properties enable reliable and long-distance communication, even for weakly radiated signals. AudioCast builds on these properties and the unique negative resistance of a tunnel diode.AudioCast rethinks the architecture of radio transmitters using a tunnel diode oscillator to generate carrier signals and self-modulate them with baseband signals. This results in frequency-modulated transmissions at an overall power consumption below 200 μW. Unlike related systems based on the backscatter mechanism, AudioCast does not require an externally generated carrier or rely on ambient signals. We argue that AudioCast represents an example of a new class of transmitters which we conceptualize as Beyond-Backscatter transmitters. Through experiments, we demonstrate that AudioCast achieves a transmission range of up to 130 m in line-of-sight and tens of meters in non-line-of-sight conditions respectively. These transmissions are decodable by ubiquitous commodity FM receivers in cars, homes, and phones. We evaluate AudioCast through theoretical analysis, benchtop experiments, and urban/indoor field deployments. Additionally, we prototype and demonstrate novel applications, including low-power voice transmissions and hand gesture communication, enabled by AudioCast's range and power efficiency.},
   journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+  series = {ACM IMWUT '25},
   month = {jun},
   articleno = {27},
   numpages = {32},
   keywords = {Beyond-backscatter transmitters, Embedded systems, FM-broadcast spectrum},
 }
 
-@INPROCEEDINGS{tunnelsense24rfid,
+@INPROCEEDINGS{tunnelsense_rfid24,
   bibtex_show={true},
-  selected={true}, 
+  preview = {tunnelsense.png},
+  selected={true},
   abbr={RFID},
+  pdf = {tunnelsense-rfid24.pdf},
 
   author={Thaddeus*, Lim Chang Quan and Reddy*, C. Rajashekar and Bhadauria, Yuvraj Singh and Shah*, Dhairya and Gulati, Manoj and Varshney, Ambuj},
-  booktitle={2024 IEEE International Conference on RFID (RFID)}, 
-  title={TunnelSense: Low-Power, Non-Contact Sensing Using Tunnel Diodes}, 
+  booktitle={2024 IEEE International Conference on RFID (RFID)},
+  title={TunnelSense: Low-Power, Non-Contact Sensing Using Tunnel Diodes},
+  series={IEEE RFID '24},
   year={2024},
   volume={},
   number={},
@@ -44,10 +83,13 @@
 
 # Workshop Papers ##################################################
 
-@inproceedings{lifiar24mobicom,
+@inproceedings{lifiar_mobicom24,
   bibtex_show={true},
-  selected={true}, 
+  preview = {lifiar.png},
+  selected={false},
   abbr={S3 Workshop},
+  pdf = {lifiar-mobicom24s3.pdf},
+  bibtex_show={true},
 
   author = {Shah*, Moteen and Shah*, Dhairya and Medaranga, Pramuka and Varshney, Ambuj},
   title = {Li-FiAR: Networking Augmented-Reality Devices through Visible Light},
@@ -63,12 +105,15 @@
   numpages = {3},
   keywords = {visible light communication, networking, augmented reality},
   location = {Washington D.C., DC, USA},
-  series = {ACM MobiCom '24},
+  series = {ACM S3 (MobiCom) '24},
 }
 
-@inproceedings{pixelgen24mobicom,
+@inproceedings{pixelgen_mobicom24,
+  pdf = {pixelgen_immercommobicom24.pdf},
   abbr={ImmerCom Workshop},
-  selected={true}, 
+  preview = {pixelgen.png},
+  selected={false},
+  pdf = {pixelgen-mobicom24immercom.pdf},
   bibtex_show={true},
 
   author = {Li*, Kunjun and Gulati*, Manoj and Shah*, Dhairya and Waskito, Steven and Chakrabarty, Shantanu and Varshney, Ambuj},
@@ -85,28 +130,63 @@
   numpages = {8},
   keywords = {embedded systems, networking, large language models},
   location = {Washington D.C., DC, USA},
-  series = {ACM MobiCom '24},
+  series = {ACM ImmerCom (MobiCom) '24},
 }
 ###################################################
 
 # Demos ##################################################
-@article{audiocast25ubicomp_demo,
-  bibtex_show={true},
-  abbr={UbiComp Demo},
-
-  author = {Shah*, Dhairya and Reddy*, C. Rajashekar and Varshney, Ambuj},
-  title = {Enabling Low-power Ubiquitous Connectivity for Embedded Systems through Audio-broadcasting Tags},
-  year = {2025},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/},
-  journal = {Companion of the 2025 on ACM International Joint Conference on Pervasive and Ubiquitous Computing},
-}
-
-@article{audiocast25mobisys_demo,
+@inproceedings{sensetag_mobisys26demo,
   bibtex_show={true},
   abbr={MobiSys Demo},
-  
+  pdf = {sensetag-mobisys26demo.pdf},
+  preview = {sensetag.png},
+
+  author = {Sara, Spanddhana and Shah, Dhairya and Sooriya Patabandige, Pramuka and Chinthalapani, Rajashekar Reddy and Varshney, Ambuj},
+  title = {Demo: Ubiquitous Battery-free Sensing AirTags},
+  year = {2026},
+  isbn = {9798400727115},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3812835.3814966},
+  doi = {10.1145/3812835.3814966},
+  abstract = {Commercial asset tracking systems such as Apple AirTags use hundreds of millions of mobile devices as opportunistic data mules, enabling global location coverage without dedicated cellular infrastructure. However, existing trackers are limited to location reporting, rely on active BLE radios and coin-cell batteries, and cannot support long-term sensing deployments. We demonstrate SenseTag, a work-in-progress tracker that extends AirTag-like functionality towards battery-free, sticker form-factor sensing. SenseTag leverages Apple's Find My network as a global backhaul for both location and sensor data, using backscatter communication to eliminate the cost of active BLE transmission. A key challenge is implementing Find My's cryptographic protocol within the tag's constrained compute and energy budget. Unlike prior systems that encode data into public BLE advertisement fields, exposing it to passive scanners, SenseTag embeds sensor readings into the private-key generation process, preserving Find My-compatible location decryption while preventing exposure to passive BLE scanners. We demonstrate an end-to-end prototype using commodity tag-side hardware and a controllable carrier emitter, backhauling environmental sensor data through Apple's Find My network and visualizing recovered location and sensor readings on a web-based dashboard.},
+  booktitle = {Proceedings of the 24th Annual International Conference on Mobile Systems, Applications and Services Companion},
+  pages = {159–160},
+  numpages = {2},
+  keywords = {backscatter communication, apple find my, opportunistic networks, battery-free sensing, crowd-sourced infrastructure},
+  location = {University of Cambridge, Cambridge, United Kingdom},
+  series = {ACM MobiSys '26}
+}
+
+@article{audiocast_ubicomp25demo,
+  bibtex_show={true},
+  preview = {audiocast_chain.png},
+  abbr={UbiComp Demo},
+  pdf = {audiocast-ubicomp25demo.pdf},
+
+  author = {Shah, Dhairya and Chinthalapani, Rajashekar Reddy and Varshney, Ambuj},
+  title = {Enabling Low-power Ubiquitous Connectivity for Embedded Systems through Audio-Broadcasting Tags},
+  year = {2026},
+  isbn = {9798400714771},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3714394.3754406},
+  doi = {10.1145/3714394.3754406},
+  abstract = {The challenges in wireless connectivity continue to hinder the widespread, scalable, and sustainable deployment of embedded systems. We introduce AudioCast to address the issues of spectrum scarcity-induced contention and high power consumption of transmitters. It leverages the availability of FM radio receivers operating within the 88–108 MHz spectrum, taking advantage of the superior radio-wave propagation characteristics afforded by lower-frequency bands. Specifically, AudioCast achieves at least a 10x reduction in path loss compared to the 2.4 GHz and 5 GHz ISM bands. This capability enables reliable long-distance communication while minimizing congestion and interference. AudioCast employs a single tunnel diode oscillator to generate carrier signals, which are then self-modulated with data encoded in baseband audio signals. This results in frequency-modulated transmissions that consume under 200 ?W of power, yet travel over 130 m in line-of-sight conditions. Unlike backscatter-based systems, AudioCast does not require an external carrier or depend on ambient signals, introducing a new category of transmitters termed Beyond-Backscatter transmitters, all while maintaining similar low power consumption.},
+  booktitle = {Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing},
+  pages = {357–361},
+  numpages = {5},
+  keywords = {fm-broadcast spectrum, wireless transmitters, embedded systems, internet of things, tunnel diodes},
+  location = {Finland},
+  series = {ACM UbiComp '25}
+}
+
+@article{audiocast_mobisys25demo,
+  bibtex_show={true},
+  preview = {audiocast_pcb.png},
+  abbr={MobiSys Demo},
+  pdf = {audiocast-mobisys25demo.pdf},
+
   poster = {audiocast_mobisys25_poster.pdf},
 
   author = {Reddy*, C. Rajashekar and Shah*, Dhairya and Varshney, Ambuj},
@@ -116,27 +196,32 @@
   address = {New York, NY, USA},
   url = {https://doi.org/10.1145/3711875.3734380},
   doi = {10.1145/3711875.3734380},
+  series = {ACM MobiSys '25},
   journal = {The 23rd Annual International Conference on Mobile Systems, Applications and Services (MobiSys '25)},
 }
 
-@INPROCEEDINGS{pixelgen24mobicom_demo,
+@INPROCEEDINGS{pixelgen_ipsn24demo,
   bibtex_show={true},
+  preview = {pixelgen.png},
   abbr={IPSN Demo},
   award={Best Demo Runner-Up Award},
 
   author={Li*, Kunjun and Gulati*, Manoj and Shah, Dhairya and Waskito, Steven and Chakrabarty, Shantanu and Varshney, Ambuj},
-  booktitle={2024 23rd ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)}, 
-  title={Demo Abstract: PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality}, 
+  booktitle={2024 23rd ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)},
+  title={Demo Abstract: PixelGen: Rethinking Embedded Camera Systems for Mixed-Reality},
   year={2024},
   volume={},
   number={},
   pages={271-272},
+  series={ACM/IEEE IPSN '24},
   keywords={Headphones;Visualization;Power demand;Magnetic sensors;Mixed reality;Virtual reality;Sensor phenomena and characterization;Embedded Camera Systems;Mixed Reality;Multimodal AI;Low-power Systems},
   doi={10.1109/IPSN61024.2024.00036}
 }
 
-@inproceedings{gatehaul24mobicom_demo,
+@inproceedings{gatehaul_mobicom24demo,
   bibtex_show={true},
+  pdf = {gatehaul-mobicom24demo.pdf},
+  preview = {gatehaul.png},
   abbr={MobiCom Demo},
 
   author = {Sara, Spanddhana and Shah, Moteen and Shah, Dhairya and Reddy, C. Rajashekar and Varshney, Ambuj},
@@ -158,8 +243,29 @@
 ###################################################
 
 # Posters ##################################################
-@inproceedings{llm_wireless24sigcomm_poster,
+@inproceedings{m2_mobisys26poster,
   bibtex_show={true},
+  abbr={MobiSys Poster},
+  pdf = {m2-mobisys26poster.pdf},
+  award={Best Poster Runner-Up Award},
+  preview = {m2_pcb.png},
+
+  author = {Shah, Dhairya and Medaranga, Pramuka and Reddy, C. Rajashekar and Sara, Spanddhana and Dutta, Prabal and Varshney, Ambuj},
+  title = {Poster: Going Beyond the Delegation Architecture of Low-power Wireless Communication},
+  year = {2026},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3812835.3814882},
+  doi = {10.1145/3812835.3814882},
+  booktitle = {Companion of the 24th Annual International Conference on Mobile Systems, Applications and Services (MobiSys '26)},
+  pages = {66--67},
+  series = {ACM MobiSys '26},
+}
+
+@inproceedings{llm_wireless_sigcomm24poster,
+  bibtex_show={true},
+  pdf = {llmtx-sigcomm24poster.pdf},
+  preview = {llmtx.png},
   abbr={SigComm Poster},
 
   author = {Medaranga*, Pramuka and Shah*, Dhairya and Kandala*, Savitha Viswanadh and Varshney, Ambuj},
@@ -176,16 +282,18 @@
   numpages = {3},
   keywords = {embedded systems, networking, large language models},
   location = {Sydney, NSW, Australia},
-  series = {ACM SIGCOMM Posters and Demos '24}
+  series = {ACM SIGCOMM '24}
 }
 
-@INPROCEEDINGS{tunnelsense24ipsn_poster,
+@INPROCEEDINGS{tunnelsense_ipsn24poster,
   bibtex_show={true},
+  preview = {tunnelsense_ipsn.png},
   abbr={IPSN Poster},
 
   author={Bhadauria, Yuvraj Singh and Thaddeus, Lim Chang Quan and Reddy, C. Rajashekar and Gulati, Manoj and Shah, Dhairya and Varshney, Ambuj},
-  booktitle={2024 23rd ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)}, 
-  title={Poster Abstract: Enabling Non-contact, Low-Power Sensing using Tunnel Diodes}, 
+  booktitle={2024 23rd ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)},
+  title={Poster Abstract: Enabling Non-contact, Low-Power Sensing using Tunnel Diodes},
+  series={ACM/IEEE IPSN '24},
   year={2024},
   volume={},
   number={},
@@ -194,10 +302,12 @@
   doi={10.1109/IPSN61024.2024.00056}
   }
 
-@inbook{visiblebits25mobicom_demo,
+@inproceedings{visiblebits_mobicom25demo,
   bibtex_show={true},
+  preview = {visiblebits.png},
   abbr={MobiCom Demo},
-  
+  pdf = {visiblebits-mobicom25demo.pdf},
+
   author = {Chai Jia Xuan, Celes and Shah, Dhairya and Varshney, Ambuj},
   title = {Demo: VisibleBits: Illuminating Mixed Reality with Li-Fi Information Spotlights},
   year = {2025},
@@ -205,11 +315,33 @@
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
   url = {https://doi.org/10.1145/3680207.3765607},
+  doi = {10.1145/3680207.3765607},
   abstract = {Light Fidelity utilizes light to enable high-bandwidth, low-interference networking and complements traditional radio-frequency links. We demonstrate that Light Fidelity's precise spatial data confinement makes it a natural fit for mixed reality: By exploiting line-of-sight propagation with mixed-reality headset spatial awareness, we create "information spotlights" - which are localized optical zones that provide context-specific data, such as museum exhibit details or retail product information. This avoids radio frequency based localization, which is both computationally intensive and not supported in today's commercial headsets. We present VisibleBits, a proof-of-concept Light Fidelity transceiver integrated with a Meta Quest 3 that converts optical signals into a visual serial protocol, overcoming hardware limitations. In our demo, users receive exhibit-specific real-time information, which is then overlaid onto their mixed reality headsets as they enter a Light Fidelity illumination zone.},
   booktitle = {Proceedings of the 31st Annual International Conference on Mobile Computing and Networking},
   pages = {1251–1253},
-  numpages = {3}
+  numpages = {3},
+  keywords = {light fidelity, information spotlights, mixed reality},
+  location = {Kerry Hotel, Hong Kong, Hong Kong, China},
+  series = {ACM MobiCom '25} 
 }
+###################################################
+
+# Upcoming ##################################################
+@inproceedings{m2_islped26demo,
+  bibtex_show={true},
+  abbr={ISLPED Demo},
+  pdf = {m2-islped26.pdf},
+  preview = {m2_tx_pcb.png},
+
+  author = {Medaranga, Pramuka and Shah, Dhairya and Reddy, C. Rajashekar and Sara, Spanddhana and Dutta, Prabal and Varshney, Ambuj},
+  title = {Demo Abstract: Microwatt Microwave (M²) Oscillator: Enabling 105 μW, Stable and Standalone Transceivers},
+  year = {2026},
+  booktitle = {ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED '26) Design Demo Contest},
+  series = {ACM/IEEE ISLPED '26},
+  note = {To appear},
+}
+
+
 ###################################################
 
 #book{einstein1920relativity,

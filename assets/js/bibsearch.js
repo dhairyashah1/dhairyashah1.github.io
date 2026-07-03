@@ -66,5 +66,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes
 
+  // Make publication-type tags clickable: filter by that type
+  const searchByTag = (tag) => {
+    const input = document.getElementById("bibsearch");
+    input.value = tag.dataset.search;
+    input.dispatchEvent(new Event("input"));
+    input.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+  document.querySelectorAll(".cat-tag[data-search]").forEach((tag) => {
+    tag.addEventListener("click", () => searchByTag(tag));
+    tag.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        searchByTag(tag);
+      }
+    });
+  });
+
   updateInputField(); // Update filter when page loads
 });

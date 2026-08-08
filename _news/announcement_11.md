@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work on Microwatt Microwave (M²) Oscillator is accepted at MobiSys 2026!
+[M2](/assets/pdf/m2-mobisys26.pdf) was accepted as Full Paper at ACM MobiSys '26 and awarded Featured Paper (Top 10/302).

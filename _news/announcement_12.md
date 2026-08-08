@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-03-17
+date: 2026-06-17
 inline: true
 related_posts: false
 ---
 
-Our work on HILO (Harmonic Injection Locked-Oscillator) is accepted to IEEE RFID 2026!
+Presented [HILO](/assets/pdf/hilo-rfid26.pdf) at IEEE RFID '26 in Santa Fe, NM, USA.

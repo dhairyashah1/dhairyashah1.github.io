@@ -5,8 +5,9 @@ title: Repositories
 description: <p>Open sourced repositories and contributions to various projects.</p>
 
 # Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
-nav: true
+nav: false
 nav_order: 4
+published: false
 ---
 
 {% if site.data.repositories.github_users %}

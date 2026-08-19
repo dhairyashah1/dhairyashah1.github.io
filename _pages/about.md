@@ -28,7 +28,7 @@ latest_posts:
   limit: 5 # leave blank to include all the blog posts
 ---
 
-I am **Dhairya**, a 2nd year Ph.D. student in Computer Science at the School of Computing, National University Singapore (NUS). 
+I am **Dhairya**, a 3rd year Ph.D. student in Computer Science at the School of Computing, National University Singapore (NUS). 
 
 I am part of the [WEISER](https://weiserlab.github.io/ambuj/index) Research Group at NUS, advised by [Prof. Ambuj Varshney](https://ambuj.se). 
 

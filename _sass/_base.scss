@@ -698,6 +698,124 @@ footer.sticky-bottom {
   }
 }
 
+// Awards
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+
+  .award-card {
+    position: relative;
+    display: flex;
+    min-height: 215px;
+    padding: 1.35rem;
+    overflow: hidden;
+    flex-direction: column;
+    color: var(--global-text-color);
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.75rem;
+    text-decoration: none;
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease,
+      transform 0.2s ease;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 3px;
+      background: var(--global-theme-color);
+      content: "";
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.2s ease;
+    }
+
+    &:hover,
+    &:focus-visible {
+      color: var(--global-text-color);
+      border-color: var(--global-theme-color);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1);
+      outline: none;
+      text-decoration: none;
+      transform: translateY(-3px);
+
+      &::before {
+        transform: scaleX(1);
+      }
+
+      h2,
+      .award-link {
+        color: var(--global-theme-color);
+      }
+    }
+
+    h2 {
+      margin: 1.1rem 0 0.4rem;
+      color: var(--global-text-color);
+      font-size: 1.15rem;
+      font-weight: 650;
+      line-height: 1.35;
+      transition: color 0.2s ease;
+    }
+
+    p {
+      margin: 0 0 1rem;
+      color: var(--global-text-color-light);
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+  }
+
+  .award-card-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .award-icon {
+    color: var(--global-theme-color);
+    font-size: 1.45rem;
+    line-height: 1;
+  }
+
+  .award-year {
+    padding: 0.2rem 0.6rem;
+    color: var(--global-text-color-light);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+  }
+
+  .award-link {
+    display: inline-flex;
+    margin-top: auto;
+    align-items: center;
+    gap: 0.25rem;
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+}
+
+@media (max-width: 767px) {
+  .awards-grid {
+    grid-template-columns: 1fr;
+
+    .award-card {
+      min-height: 195px;
+    }
+  }
+}
+
 // Publications
 
 .publications {

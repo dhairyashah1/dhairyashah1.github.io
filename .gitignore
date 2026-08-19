@@ -13,9 +13,22 @@ Desktop.ini
 .codex/
 .cache/
 .ruby-lsp/
+.devcontainer/
+.all-contributorsrc
+.git-blame-ignore-revs
+.lycheeignore
+.pre-commit-config.yaml
+.prettierignore
+.prettierrc*
 *.swp
 *.swo
 *~
+
+# Keep only the workflow required to deploy this site
+.github/*
+!.github/workflows/
+.github/workflows/*
+!.github/workflows/deploy.yml
 
 # Local environment and logs
 .env

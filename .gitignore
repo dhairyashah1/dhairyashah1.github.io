@@ -1,13 +1,56 @@
-_site
-.bundle
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-.DS_store
+# macOS and Windows metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Editors and local tooling
+.idea/
+.vscode/
+.claude/
+.agents/
+.codex/
+.cache/
+.ruby-lsp/
+*.swp
+*.swo
+*~
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+tmp/
+
+# Ruby and Bundler
+.bundle/
 .ruby-version
-.tweet-cache
-Gemfile.lock
-assets/libs/
+vendor/
+
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.tweet-cache/
+
+# JavaScript dependencies
 node_modules/
-vendor
-.idea
+
+# Python and notebook caches
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+
+# Test, audit, and generated reports
+coverage/
+.lighthouseci/
+*.lcov
+lighthouse_results/
+
+# Downloaded/generated site dependencies
+assets/libs/

@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "Open sourced repositories and contributions to various projects.",
+        },{id: "nav-awards",
+          title: "Awards",
+          description: "Selected honors, fellowships, and research recognitions.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/awards/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -37,12 +37,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/publications/";
               },
-            },{id: "dropdown-repositories",
-              title: "Repositories",
+            },{id: "dropdown-awards",
+              title: "Awards",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/repositories/";
+                window.location.href = "/awards/";
               },
             },{id: "post-a-post-with-plotly-js",
         
@@ -447,6 +447,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-m2-awarded-best-poster-runner-up-at-acm-mobisys-26",
           title: 'M2 awarded Best Poster Runner-Up at ACM MobiSys’26!',
+          description: "",
+          section: "News",},{id: "news-i-was-awarded-nus-research-achievement-award",
+          title: 'I was awarded NUS Research Achievement Award!',
           description: "",
           section: "News",},{id: "news-m2-awarded-best-demo-honourable-mention-at-acm-ieee-islped-26",
           title: 'M2 awarded Best Demo Honourable Mention at ACM / IEEE ISLPED ‘26!',

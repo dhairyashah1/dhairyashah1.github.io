@@ -22,7 +22,7 @@ nav_order: 4
     <span class="award-provider award-provider-conference">ACM MobiSys '26</span>
   </a>
 
-  <a class="award-card" href="https://www.comp.nus.edu.sg/programmes/pg/awards/deans-research/" target="_blank" rel="noopener noreferrer">
+  <a class="award-card" href="https://drive.google.com/file/d/17Zlvakmo2TmClzoCDq71pIg1ZusPu2x_/view?usp=share_link" target="_blank" rel="noopener noreferrer">
     <div class="award-card-meta"><span class="award-icon"><i class="ti ti-sparkles"></i></span><span class="award-year">2026</span></div>
     <h2>NUS Research Achievement Award</h2>
     <p class="award-detail">Selective award for research excellence</p>

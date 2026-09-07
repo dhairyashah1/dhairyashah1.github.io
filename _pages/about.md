@@ -2,7 +2,8 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='mailto:dhairya@u.nus.edu'>dhairya@u.nus.edu
+subtitle: <a href='mailto:dhairya@u.nus.edu'>dhairya@u.nus.edu</a> 
+# / <a href='mailto:dhairyashah110501@gmail.com'>dhairyashah110501@gmail.com</a>
 # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:

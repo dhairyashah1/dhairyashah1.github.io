@@ -57,6 +57,13 @@ nav_order: 4
     <span class="award-provider award-provider-fellowship">EPFL</span>
   </a>
 
+  <a class="award-card" href="https://www.epfl.ch/schools/ic/education/master/research-scholars/" target="_blank" rel="noopener noreferrer">
+    <div class="award-card-meta"><span class="award-icon"><i class="ti ti-school"></i></span><span class="award-year">2024</span></div>
+    <h2>Research Scholar MSc Fellowship</h2>
+    <p class="award-detail">Selective research scholarship for pursuing MSc degree</p>
+    <span class="award-provider award-provider-fellowship">EPFL</span>
+  </a>
+
   <a class="award-card" href="https://drive.google.com/file/d/1siUFy_b_VmOM0JvFLOyOrNv-AWXpQ8Sr/view?usp=share_link" target="_blank" rel="noopener noreferrer">
     <div class="award-card-meta"><span class="award-icon"><i class="ti ti-medal-2"></i></span><span class="award-year">2023</span></div>
     <h2>Director's Gold Medal</h2>

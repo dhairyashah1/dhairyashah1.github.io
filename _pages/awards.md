@@ -8,6 +8,13 @@ nav_order: 4
 ---
 
 <div class="awards-grid">
+  <a class="award-card" href="https://dl.acm.org/doi/10.1145/3729471" target="_blank" rel="noopener noreferrer">
+    <div class="award-card-meta"><span class="award-icon"><i class="ti ti-trophy"></i></span><span class="award-year">2026</span></div>
+    <h2>Distinguished Paper Award</h2>
+    <p class="award-detail">AudioCast (IMWUT 2025)</p>
+    <span class="award-provider award-provider-conference">ACM UbiComp '26</span>
+  </a>
+
   <a class="award-card" href="https://www.islped.org/2026/" target="_blank" rel="noopener noreferrer">
     <div class="award-card-meta"><span class="award-icon"><i class="ti ti-trophy"></i></span><span class="award-year">2026</span></div>
     <h2>Best Demo Honorable Mention</h2>
@@ -32,8 +39,8 @@ nav_order: 4
   <a class="award-card" href="https://www.ubicomp.org/ubicomp-iswc-2025/" target="_blank" rel="noopener noreferrer">
     <div class="award-card-meta"><span class="award-icon"><i class="ti ti-plane"></i></span><span class="award-year">2025–26</span></div>
     <h2>Travel Grants</h2>
-    <p class="award-detail">MobiCom '24, UbiComp '25, and RFID '26</p>
-    <span class="award-provider award-provider-conference">ACM SIG & NUS</span>
+    <p class="award-detail">UbiComp '25, RFID '26, and MobiCom '26 '24</p>
+    <span class="award-provider award-provider-conference">ACM SIGCHI & NUS</span>
   </a>
 
   <a class="award-card" href="https://ipsn.acm.org/2024/awards.html" target="_blank" rel="noopener noreferrer">

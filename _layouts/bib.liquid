@@ -171,7 +171,15 @@
       {{ periodical | strip }}
       <span class="cat-tag {{ pub_cat_class }}" role="button" tabindex="0" data-search="{{ pub_category }}" title="Filter by {{ pub_category }}">{{ pub_category }}</span>
       {% if entry.award %}
-        <span class="award-badge" title="{{ entry.award | strip_html }}">🏅 {% if entry.award_name %}{{ entry.award_name }}{% else %}{{ entry.award | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endif %}</span>
+        {% assign awards = entry.award | split: ';' %}
+        {% assign award_names = entry.award_name | split: ';' %}
+        {% for award in awards %}
+          {% assign award_text = award | strip %}
+          {% assign award_name = award_names[forloop.index0] | strip %}
+          {% if award_text != '' %}
+            <span class="award-badge" title="{{ award_text | strip_html | escape }}">🏅 {% if award_name != '' %}{{ award_name }}{% else %}{{ award_text | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endif %}</span>
+          {% endif %}
+        {% endfor %}
       {% endif %}
     </div>
     <div class="periodical">

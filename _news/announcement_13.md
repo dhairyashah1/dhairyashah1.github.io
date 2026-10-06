@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-M2 awarded [Best Poster Runner-Up](https://www.sigmobile.org/mobisys/2026/awards/) at ACM MobiSys'26!
+M² wins [Best Poster Runner-Up](https://www.sigmobile.org/mobisys/2026/awards/) at ACM MobiSys'26!

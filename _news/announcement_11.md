@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[M2](/assets/pdf/m2-mobisys26.pdf) was accepted as Full Paper at ACM MobiSys '26 and awarded Featured Paper (Top 10/302).
+[M²](/assets/pdf/m2-mobisys26.pdf) was accepted as Full Paper at ACM MobiSys '26 and awarded Featured Paper (Top 10/302).

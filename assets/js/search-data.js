@@ -16,9 +16,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-awards",
-          title: "Awards",
-          description: "Selected honors, fellowships, and research recognitions.",
+        },{id: "nav-awards-amp-media",
+          title: "Awards &amp; Media",
+          description: "Selected honors, fellowships, and media coverage of my research and collaborations.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/awards/";
@@ -37,8 +37,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/publications/";
               },
-            },{id: "dropdown-awards",
-              title: "Awards",
+            },{id: "dropdown-awards-amp-media",
+              title: "Awards &amp; Media",
               description: "",
               section: "Dropdown",
               handler: () => {

@@ -119,17 +119,17 @@ nav_order: 4
 <h2 id="featured-media" class="featured-media-heading">Media Coverage</h2>
 
 <div class="awards-grid">
-  <a class="award-card" href="https://www.comp.nus.edu.sg/bytes/shrinking-ai-to-fit-the-real-world-assistant-ambuj-varshney-receives-2026-google-research-award/" target="_blank" rel="noopener noreferrer">
+  <article class="award-card">
     <div class="award-card-meta"><span class="award-icon"><i class="ti ti-news" aria-hidden="true"></i></span><time class="award-year" datetime="2026-06-05">5 June 2026</time></div>
-    <h3>Shrinking AI to Fit the Real World</h3>
-    <p class="award-detail">Coverage of our TinyLLM collaboration and Prof. Ambuj Varshney's 2026 Google Research Award, highlighting language models for embedded devices.</p>
+    <h3><a href="https://www.comp.nus.edu.sg/bytes/shrinking-ai-to-fit-the-real-world-assistant-ambuj-varshney-receives-2026-google-research-award/" target="_blank" rel="noopener noreferrer">Shrinking AI to Fit the Real World</a></h3>
+    <p class="award-detail">Our lab's featured work on <a href="https://tinyllm.org" target="_blank" rel="noopener noreferrer">TinyLLM</a> - Small language models for edge devices, awarded 2026 Google Research Award in ML</p>
     <span class="award-provider award-provider-research">NUS Computing</span>
-  </a>
+  </article>
 
-  <a class="award-card" href="https://www.comp.nus.edu.sg/features/reimagining-connectivity-how-audiocast-delivers-ultra-low-power-wireless-communication-at-scale/" target="_blank" rel="noopener noreferrer">
+  <article class="award-card">
     <div class="award-card-meta"><span class="award-icon"><i class="ti ti-news" aria-hidden="true"></i></span><time class="award-year" datetime="2025-08-21">21 August 2025</time></div>
-    <h3>Reimagining Connectivity: How AudioCast Delivers Ultra-Low-Power Wireless Communication at Scale</h3>
-    <p class="award-detail">A feature on our AudioCast research, exploring how embedded devices can communicate with minimal power using the FM radio spectrum.</p>
+    <h3><a href="https://www.comp.nus.edu.sg/features/reimagining-connectivity-how-audiocast-delivers-ultra-low-power-wireless-communication-at-scale/" target="_blank" rel="noopener noreferrer">Reimagining Connectivity: How AudioCast Delivers Ultra-Low-Power Wireless Communication at Scale</a></h3>
+    <p class="award-detail">Our featured work on <a href="https://dl.acm.org/doi/10.1145/3729471" target="_blank" rel="noopener noreferrer">AudioCast</a>: Long-range, Microwatt-scale, Beyond-backscatter Transmitters. Published in IMWUT 2025 (Distinguished Paper Award)</p>
     <span class="award-provider award-provider-research">NUS Computing</span>
-  </a>
+  </article>
 </div>

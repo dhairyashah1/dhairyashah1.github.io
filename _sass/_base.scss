@@ -773,6 +773,15 @@ footer.sticky-bottom {
       font-size: 0.9rem;
       font-weight: 400;
       line-height: 1.4;
+
+      a {
+        color: var(--global-theme-color);
+        text-decoration: underline;
+      }
+    }
+
+    h3 a {
+      color: inherit;
     }
   }
 

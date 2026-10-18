@@ -1036,17 +1036,20 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          color: #fff;
+          background-color: #526581;
+          border: 1px solid #7184a0;
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
 
-          &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+          &:hover,
+          &:focus-visible {
+            color: #fff;
+            background-color: $cyan-color;
+            border-color: $cyan-color;
           }
         }
         a.award.btn {

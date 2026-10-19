@@ -133,6 +133,8 @@
       {% capture entrytype %}<span class="venue">{% if entry.series %}{{ entry.series }}{% else %}{{ entry.journal }}{% endif %}</span>{% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<span class="venue">{% if entry.series %}{{ entry.series }}{% else %}{{ entry.booktitle }}{% endif %}</span>{% endcapture %}
+    {% elsif entry.type == 'unpublished' %}
+      {% capture entrytype %}<span class="venue">{{ entry.series }} {{ entry.year }}</span>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<span class="venue">{{ entry.school }}</span>{% endcapture %}
     {% else %}
@@ -154,7 +156,10 @@
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% endcapture %}
     {%- assign abbr_lower = entry.abbr | downcase -%}
-    {% if abbr_lower contains 'demo' %}
+    {% if entry.type == 'unpublished' %}
+      {% assign pub_category = 'Preprint' %}
+      {% assign pub_cat_class = 'cat-preprint' %}
+    {% elsif abbr_lower contains 'demo' %}
       {% assign pub_category = 'Demo' %}
       {% assign pub_cat_class = 'cat-demo' %}
     {% elsif abbr_lower contains 'poster' %}

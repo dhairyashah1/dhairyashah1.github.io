@@ -17,6 +17,7 @@ nav_order: 1
 
 <div class="publication-legend">
   <span class="legend-label">Type:</span>
+  <span class="cat-tag cat-preprint" role="button" tabindex="0" data-search="Preprint" title="Filter by Preprint">Preprint</span>
   <span class="cat-tag cat-full" role="button" tabindex="0" data-search="Full Paper" title="Filter by Full Paper">Full Paper</span>
   <span class="cat-tag cat-demo" role="button" tabindex="0" data-search="Demo" title="Filter by Demo">Demo</span>
   <span class="cat-tag cat-demo" role="button" tabindex="0" data-search="Poster" title="Filter by Poster">Poster</span>

@@ -33,7 +33,7 @@ I am **Dhairya**, a 3rd year Ph.D. student in Computer Science at the School of 
 
 I am part of the [WEISER](https://weiserlab.github.io/ambuj/index) Research Group at NUS, advised by [Prof. Ambuj Varshney](https://ambuj.se). 
 
-My research interests are at the intersection of wireless networking, embedded systems and on-device AI. My work focuses on developing **ultra low-power communication** (transceivers) and **sensing** architectures which address the **energy and spectrum** challenges of wireless embedded systems. These are enabled by radio-frequency (RF) and optical media, with applications ranging from health monitoring to XR devices.  
+My research interests are at the intersection of wireless networking, embedded systems and on-device AI. My work focuses on developing **ultra low-power communication** (transceivers) and **sensors**, as well as **AI agents that build them**. These are enabled by radio-frequency (RF) and optical media, with applications ranging from health monitoring to XR devices.
 
 During my PhD, I interned at [Nokia Bell Labs](https://www.nokia.com/bell-labs/about/locations/cambridge-uk/), UK working on multi-modal sensory LLMs. Previously, I was a research intern at [SENS Lab, EPFL](https://sens.epfl.ch) working on mmWave communication and sensing. I graduated from VJTI (University of Mumbai, India) with a Bachelor of Technology in ECE (University Rank 1).
 

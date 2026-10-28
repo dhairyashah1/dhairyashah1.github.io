@@ -10,7 +10,7 @@ nav_order: 4
 <h2 id="awards">Awards &amp; Honors</h2>
 
 <div class="awards-grid">
-  <a class="award-card" href="https://dl.acm.org/doi/10.1145/3729471" target="_blank" rel="noopener noreferrer">
+  <a class="award-card" href="https://www.ubicomp.org/ubicomp-iswc-2026/awards-all/" target="_blank" rel="noopener noreferrer">
     <div class="award-card-meta"><span class="award-icon"><i class="ti ti-trophy"></i></span><span class="award-year">2026</span></div>
     <h3>Distinguished Paper Award</h3>
     <p class="award-detail">AudioCast (IMWUT 2025)</p>

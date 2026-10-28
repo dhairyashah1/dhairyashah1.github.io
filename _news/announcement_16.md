@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[AudioCast](https://dl.acm.org/doi/10.1145/3729471) was awarded an IMWUT Distinguished Paper Award!
+[AudioCast](https://dl.acm.org/doi/10.1145/3729471) was awarded an [IMWUT Distinguished Paper Award](https://www.ubicomp.org/ubicomp-iswc-2026/awards-all/)!

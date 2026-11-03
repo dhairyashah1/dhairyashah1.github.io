@@ -1,0 +1,72 @@
+---
+layout: default
+---
+<div class="post project-page">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {% assign media_count = 0 %}
+    {% if page.img %}{% assign media_count = media_count | plus: 1 %}{% endif %}
+    {% if page.video %}{% assign media_count = media_count | plus: 1 %}{% endif %}
+    {% if page.videos %}{% assign media_count = media_count | plus: page.videos.size %}{% endif %}
+    {% if media_count > 0 %}
+      <div class="project-media{% if media_count > 1 %} project-media-two{% endif %}">
+        {% if page.img %}
+          <div class="project-hero">
+            {% include figure.liquid loading="eager" path=page.img sizes="(min-width: 768px) 460px, 100vw" alt=page.title zoomable=true %}
+          </div>
+        {% endif %}
+        {% if page.video %}
+          <div class="project-video">
+            {% include video.liquid path=page.video class="project-video-frame" controls=true %}
+            {% if page.video_caption %}<p class="project-video-caption">{{ page.video_caption }}</p>{% endif %}
+          </div>
+        {% endif %}
+        {% for v in page.videos %}
+          <div class="project-video">
+            {% include video.liquid path=v.url class="project-video-frame" controls=true %}
+            {% if v.caption %}<p class="project-video-caption">{{ v.caption }}</p>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <div class="project-meta">
+      {% if page.venues %}
+        <div class="project-venues">
+          {% for venue in page.venues %}<span class="project-venue">{{ venue }}</span>{% endfor %}
+        </div>
+      {% endif %}
+      {% if page.awards %}
+        <ul class="project-awards">
+          {% for award in page.awards %}
+            <li><i class="ti ti-trophy" aria-hidden="true"></i>{% if award.url %}<a href="{{ award.url }}" target="_blank" rel="noopener noreferrer">{{ award.text }}</a>{% else %}{{ award.text }}{% endif %}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if page.links %}
+        <div class="project-links">
+          {% for link in page.links %}
+            <a class="project-link" href="{{ link.url | relative_url }}" {% if link.url contains '://' %}target="_blank" rel="noopener noreferrer"{% endif %}>{% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}{{ link.label }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    {{ content }}
+
+    {% if page.publications %}
+      <h2 class="project-pubs-heading">Publications</h2>
+      <div class="publications project-publications">
+        {% for key in page.publications %}
+          {% bibliography --group_by none --query @*[key={{ key }}] %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <p class="project-back"><a href="{{ '/projects/' | relative_url }}"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i> All projects</a></p>
+  </article>
+</div>

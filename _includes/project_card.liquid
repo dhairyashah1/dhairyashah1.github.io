@@ -1,0 +1,28 @@
+<article class="project-card">
+  <a class="project-card-link" href="{{ project.url | relative_url }}" aria-label="{{ project.short_title | default: project.title }}">
+    {% if project.img %}
+      <div class="project-card-img">
+        {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 450px, 100vw" alt=project.title %}
+      </div>
+    {% endif %}
+  </a>
+  <div class="project-card-body">
+    <div class="project-card-meta">
+      <span class="project-year">{{ project.year }}</span>
+    </div>
+    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+    <p class="project-detail">{{ project.description }}</p>
+    {% if project.venues %}
+      <div class="project-venues">
+        {% for venue in project.venues %}<span class="project-venue">{{ venue }}</span>{% endfor %}
+      </div>
+    {% endif %}
+    {% if project.awards %}
+      <ul class="project-awards">
+        {% for award in project.awards %}
+          <li><i class="ti ti-trophy" aria-hidden="true"></i>{% if award.url %}<a href="{{ award.url }}" target="_blank" rel="noopener noreferrer">{{ award.text }}</a>{% else %}{{ award.text }}{% endif %}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</article>

@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "Major research projects on ultra low-power wireless communication, battery-free sensing, and AI agents for embedded systems, with the publications and awards associated with each.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-awards-amp-media",
           title: "Awards &amp; Media",
           description: "Selected honors, fellowships, and media coverage of my research and collaborations.",
@@ -30,21 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-publications",
-              title: "Publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/publications/";
-              },
-            },{id: "dropdown-awards-amp-media",
-              title: "Awards &amp; Media",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/awards/";
-              },
-            },{id: "news-graduated-with-a-b-tech-in-ece-rank-1-from-vjti-mumbai",
+        },{id: "news-graduated-with-a-b-tech-in-ece-rank-1-from-vjti-mumbai",
           title: 'Graduated with a B.Tech in ECE (Rank 1) from VJTI, Mumbai.',
           description: "",
           section: "News",},{id: "news-started-summer-internship-at-sens-lab-epfl-working-on-mmwave-communication-and-sensing",
@@ -89,7 +82,53 @@ ninja.data = [{
           section: "News",},{id: "news-audiocast-was-awarded-an-imwut-distinguished-paper-award",
           title: 'AudioCast was awarded an IMWUT Distinguished Paper Award!',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "news-presented-our-demo-on-low-power-audio-streaming-at-acm-mobicom-26-in-austin-tx-usa",
+          title: 'Presented our demo on low-power audio streaming at ACM MobiCom ‘26 in Austin,...',
+          description: "",
+          section: "News",},{id: "news-visited-the-university-of-washington-seattle-hosted-by-prof-matt-reynolds",
+          title: 'Visited the University of Washington, Seattle, hosted by Prof. Matt Reynolds.',
+          description: "",
+          section: "News",},{id: "projects-audiocast",
+          title: 'AudioCast',
+          description: "Sub-200 µW tags that broadcast data as FM audio over 130 m to any commodity FM receiver.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/audiocast/";
+            },},{id: "projects-hilo",
+          title: 'HILO',
+          description: "Dual-band, microwatt-scale communication from a single tunnel-diode oscillator.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hilo/";
+            },},{id: "projects-li-fi-for-xr",
+          title: 'Li-Fi for XR',
+          description: "Networking AR/MR headsets through visible light, including spatially confined &quot;information spotlights&quot;.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lifi-xr/";
+            },},{id: "projects-loophil",
+          title: 'LoopHIL',
+          description: "LLM agents that build and debug wireless embedded systems with real hardware in the loop.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/loophil/";
+            },},{id: "projects-m-microwatt-microwave-oscillator",
+          title: 'M² — Microwatt Microwave Oscillator',
+          description: "A 105 µW standalone microwave transceiver that needs no external carrier, unlike backscatter.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/m2/";
+            },},{id: "projects-pixelgen",
+          title: 'PixelGen',
+          description: "Low-power embedded cameras for mixed reality, with a generative model standing in for the image sensor.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pixelgen/";
+            },},{id: "projects-battery-free-airtags",
+          title: 'Battery-free AirTags',
+          description: "Sticker-sized battery-free tags and gateways that backhaul sensor data over Apple&#39;s Find My network.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sensetag/";
+            },},{id: "projects-tunnelsense",
+          title: 'TunnelSense',
+          description: "Non-contact, low-power sensing from the resonant-frequency shifts of a tunnel-diode oscillator.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tunnelsense/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',

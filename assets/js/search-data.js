@@ -79,8 +79,8 @@ ninja.data = [{
           section: "News",},{id: "news-m-wins-best-demo-honourable-mention-at-acm-ieee-islped-26-low-power-circuit-design-contest",
           title: 'M² wins Best Demo Honourable Mention at ACM/IEEE ISLPED ‘26 Low-Power Circuit Design...',
           description: "",
-          section: "News",},{id: "news-audiocast-was-awarded-an-imwut-distinguished-paper-award",
-          title: 'AudioCast was awarded an IMWUT Distinguished Paper Award!',
+          section: "News",},{id: "news-audiocast-was-awarded-an-imwut-distinguished-paper-award-this-is-also-featured-in-an-nus-computing-article",
+          title: 'AudioCast was awarded an IMWUT Distinguished Paper Award! This is also featured in...',
           description: "",
           section: "News",},{id: "news-presented-our-demo-on-low-power-audio-streaming-at-acm-mobicom-26-in-austin-tx-usa",
           title: 'Presented our demo on low-power audio streaming at ACM MobiCom ‘26 in Austin,...',
@@ -90,42 +90,42 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-audiocast",
           title: 'AudioCast',
-          description: "Sub-200 µW tags that broadcast data as FM audio over 130 m to any commodity FM receiver.",
+          description: "Sub-200 µW audio-broadcasting tags with range up to 130 m",
           section: "Projects",handler: () => {
               window.location.href = "/projects/audiocast/";
             },},{id: "projects-hilo",
           title: 'HILO',
-          description: "Dual-band, microwatt-scale communication from a single tunnel-diode oscillator.",
+          description: "210 µW dual-band radios for reliable communication",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hilo/";
             },},{id: "projects-li-fi-for-xr",
           title: 'Li-Fi for XR',
-          description: "Networking AR/MR headsets through visible light, including spatially confined &quot;information spotlights&quot;.",
+          description: "Li-Fi receivers that bring location-specific content to spatial computing headsets",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lifi-xr/";
             },},{id: "projects-loophil",
           title: 'LoopHIL',
-          description: "LLM agents that build and debug wireless embedded systems with real hardware in the loop.",
+          description: "AI agents that build real wireless systems autonomously, with just hardware and no human in the loop",
           section: "Projects",handler: () => {
               window.location.href = "/projects/loophil/";
             },},{id: "projects-m-microwatt-microwave-oscillator",
           title: 'M² — Microwatt Microwave Oscillator',
-          description: "A 105 µW standalone microwave transceiver that needs no external carrier, unlike backscatter.",
+          description: "Stable 105 µW microwave oscillator that enables standalone wireless transceivers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/m2/";
             },},{id: "projects-pixelgen",
           title: 'PixelGen',
-          description: "Low-power embedded cameras for mixed reality, with a generative model standing in for the image sensor.",
+          description: "Low-power embedded AI camera for mixed reality",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pixelgen/";
             },},{id: "projects-battery-free-airtags",
           title: 'Battery-free AirTags',
-          description: "Sticker-sized battery-free tags and gateways that backhaul sensor data over Apple&#39;s Find My network.",
+          description: "Commodity battery-free tags for location tracking and sensing through Apple&#39;s Find My network",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sensetag/";
             },},{id: "projects-tunnelsense",
           title: 'TunnelSense',
-          description: "Non-contact, low-power sensing from the resonant-frequency shifts of a tunnel-diode oscillator.",
+          description: "Sub-100 µW non-contact RF sensor for sensing gestures and breathing rate",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tunnelsense/";
             },},{

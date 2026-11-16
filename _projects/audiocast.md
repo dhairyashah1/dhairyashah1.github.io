@@ -2,7 +2,7 @@
 layout: project
 title: AudioCast
 short_title: AudioCast
-description: Sub-200 µW tags that broadcast data as FM audio over 130 m to any commodity FM receiver.
+description: "Sub-200 µW audio-broadcasting tags with range up to 130 m"
 img: assets/img/publication_preview/audiocast_pcb.png
 video: https://www.youtube.com/embed/Vu1L44KsKcY
 video_caption: AudioCast demo
@@ -18,6 +18,8 @@ awards:
     url: https://www.ubicomp.org/ubicomp-iswc-2026/awards-all/
   - text: Featured by NUS Computing
     url: https://www.comp.nus.edu.sg/features/reimagining-connectivity-how-audiocast-delivers-ultra-low-power-wireless-communication-at-scale/
+  - text: Award coverage by NUS Computing
+    url: https://www.comp.nus.edu.sg/bytes/imwut-distinguished-paper-award/
 links:
   - label: Paper
     url: /assets/pdf/audiocast-imwut25.pdf
@@ -34,8 +36,10 @@ publications:
   - audiocast_mobisys25demo
 ---
 
-Wireless connectivity remains a bottleneck for scalable, sustainable embedded deployments: the ISM bands are congested and conventional transmitters dominate a tag's energy budget. AudioCast sidesteps both problems by transmitting in the 88–108 MHz FM broadcast band, where path loss is at least 10x lower than at 2.4 GHz and where billions of FM receivers already exist.
+Transmitting is the most power-intensive task an embedded device performs. Backscatter tags cut power to microwatts by reflecting a carrier signal generated elsewhere, but they need a dedicated emitter nearby or strong ambient signals.
 
-A single tunnel-diode oscillator generates the carrier and is self-modulated with data encoded as baseband audio. The result is a frequency-modulated transmission that consumes under 200 µW yet travels over 130 m line-of-sight. Because the tag needs no external carrier or ambient signal, AudioCast defines a new class of *beyond-backscatter* transmitters that keep backscatter-like power consumption without its infrastructure dependence.
+{% include project_figures.liquid images="audiocast_overview.png, audiocast_comparison.png|520" caption="AudioCast tags broadcast to mobile phones, commodity transceivers and car radios (top). Unlike ambient backscatter and injection-locked tunnel diode transmitters, AudioCast needs no emitter device (bottom)." %}
 
-AudioCast was published in IMWUT 2025 and received a Distinguished Paper Award at UbiComp '26. It was demonstrated at MobiSys '25 and UbiComp '25, and was featured by NUS Computing.
+AudioCast generates its own carrier with a microwatt-scale tunnel diode oscillator, a design we call *beyond-backscatter*. A regulated bias circuit, isolator and shielding steady its drifting frequency without an external locking signal. Adding data encoded as audio tones to the bias voltage shifts that frequency, so the oscillator frequency-modulates itself without a modulator. In the underused FM broadcast band, where signals travel farther than in congested Wi-Fi bands, it reaches ordinary FM radios up to 130 m away in line of sight on under 200 µW, power comparable to backscatter.
+
+AudioCast was published in ACM IMWUT 2025 and received an IMWUT Distinguished Paper Award. It was demonstrated at ACM MobiSys '25 and ACM UbiComp '25.

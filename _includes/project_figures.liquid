@@ -1,0 +1,22 @@
+{%- comment -%}
+  Figures inside a project write-up.
+  images:  comma-separated file names in assets/img/projects/. Append "|520" to cap one image's width in px.
+  layout:  "cols-2" for side by side, omit for stacked.
+  caption: one line shown under the figures (markdown allowed).
+{%- endcomment -%}
+{%- assign figs = include.images | split: ',' -%}
+{%- assign fig_alt = include.caption | remove: '*' -%}
+<div class="project-figures{% if include.layout %} project-figures-{{ include.layout }}{% endif %}">
+<div class="project-figures-row">
+{%- for fig in figs -%}
+{%- assign parts = fig | strip | split: '|' -%}
+{%- assign fig_path = parts[0] | prepend: 'assets/img/projects/' -%}
+<div class="project-figure-item"{% if parts[1] %} style="max-width: {{ parts[1] }}px"{% endif %}>
+{%- include figure.liquid loading="lazy" path=fig_path sizes="(min-width: 768px) 930px, 100vw" alt=fig_alt zoomable=true avoid_scaling=true -%}
+</div>
+{%- endfor -%}
+</div>
+{%- if include.caption -%}
+<p class="project-figure-caption">{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+{%- endif -%}
+</div>

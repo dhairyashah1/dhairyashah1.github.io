@@ -7,8 +7,8 @@ nav: true
 nav_order: 3
 display_categories:
   - Next-gen Low-power RF Transceivers
-  - Battery-free Sensing & Backhaul
   - AI Agents for Embedded Systems
+  - Battery-free Sensing & Backhaul
   - Mixed Reality & Optical Networking
 ---
 

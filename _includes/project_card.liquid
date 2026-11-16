@@ -2,7 +2,7 @@
   <a class="project-card-link" href="{{ project.url | relative_url }}" aria-label="{{ project.short_title | default: project.title }}">
     {% if project.img %}
       <div class="project-card-img">
-        {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 450px, 100vw" alt=project.title %}
+        {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 450px, 100vw" alt=project.title avoid_scaling=true %}
       </div>
     {% endif %}
   </a>

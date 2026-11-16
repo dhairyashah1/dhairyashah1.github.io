@@ -2,7 +2,7 @@
 layout: project
 title: Battery-free AirTags
 short_title: Battery-free AirTags
-description: Sticker-sized battery-free tags and gateways that backhaul sensor data over Apple's Find My network.
+description: "Commodity battery-free tags for location tracking and sensing through Apple's Find My network"
 img: assets/img/publication_preview/sensetag.png
 video: https://www.youtube.com/embed/UnxT9HFTJoQ
 video_caption: GateHaul demo at MobiCom '24
@@ -24,8 +24,10 @@ publications:
   - gatehaul_mobicom24demo
 ---
 
-Low-power transmitters only help if their data can reach the cloud, and specialised gateways are often the most expensive part of a deployment. This line of work uses crowd-sourced networks that already surround us as a free backhaul.
+Hundreds of millions of Apple devices relay AirTag broadcasts worldwide. But AirTags report only location, and their active Bluetooth radios need coin-cell batteries. Backscatter transmits at microwatts by reflecting a nearby emitter's radio signal, yet typically needs dedicated receivers, called gateways.
 
-**GateHaul** (MobiCom '24 demo) is a low-cost gateway that supplies the carrier signal backscatter tags need, collects their data, and backhauls it over Apple's Find My network without any conventional Internet uplink.
+{% include project_figures.liquid images="sensetag_system.png, gatehaul_system.png" caption="SenseTag backscatters Find My-compatible advertisements that nearby Apple devices relay to the owner (top). GateHaul provides the carrier signal, collects data from low-power transmitters and backhauls it over Find My (bottom)." %}
 
-**SenseTag** (MobiSys '26 demo) removes the gateway altogether. It is a sticker-form-factor, battery-free tag that uses backscatter to speak Find My's protocol, embedding sensor readings into the key-generation process so that both location and sensor data are recovered through Apple's network while staying hidden from passive BLE scanners.
+SenseTag, a work in progress toward battery-free tags, backscatters Find My-compatible packets, so passing Apple devices, not gateways, relay both location and sensor data such as temperature. Earlier Find My-based systems expose readings to eavesdroppers. SenseTag hides each reading in the tag's private key, and the owner finds it by testing one key per possible value. Reports arrived with a median delay of 2.1 min in a crowd and 12.8 min near a single Apple device. The prototype still needs a separate emitter. GateHaul, a separate low-cost gateway prototype, supplies that signal and forwards tag data over Find My.
+
+SenseTag was demonstrated at ACM MobiSys '26, and GateHaul at ACM MobiCom '24.

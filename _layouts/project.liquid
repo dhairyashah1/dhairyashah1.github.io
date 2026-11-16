@@ -16,7 +16,7 @@ layout: default
       <div class="project-media{% if media_count > 1 %} project-media-two{% endif %}">
         {% if page.img %}
           <div class="project-hero">
-            {% include figure.liquid loading="eager" path=page.img sizes="(min-width: 768px) 460px, 100vw" alt=page.title zoomable=true %}
+            {% include figure.liquid loading="eager" path=page.img sizes="(min-width: 768px) 460px, 100vw" alt=page.title zoomable=true avoid_scaling=true %}
           </div>
         {% endif %}
         {% if page.video %}

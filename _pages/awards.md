@@ -120,6 +120,13 @@ nav_order: 4
 
 <div class="awards-grid">
   <article class="award-card">
+    <div class="award-card-meta"><span class="award-icon"><i class="ti ti-news" aria-hidden="true"></i></span><time class="award-year" datetime="2026-11-16">16 November 2026</time></div>
+    <h3><a href="https://www.comp.nus.edu.sg/bytes/imwut-distinguished-paper-award/" target="_blank" rel="noopener noreferrer">NUS Computing Paper on FM-broadcasting Sensor Tags Wins IMWUT Distinguished Paper Award</a></h3>
+    <p class="award-detail">Coverage of <a href="https://dl.acm.org/doi/10.1145/3729471" target="_blank" rel="noopener noreferrer">AudioCast</a> receiving the IMWUT Distinguished Paper Award, presented at UbiComp 2026 in Shanghai</p>
+    <span class="award-provider award-provider-research">NUS Computing</span>
+  </article>
+
+  <article class="award-card">
     <div class="award-card-meta"><span class="award-icon"><i class="ti ti-news" aria-hidden="true"></i></span><time class="award-year" datetime="2026-06-05">5 June 2026</time></div>
     <h3><a href="https://www.comp.nus.edu.sg/bytes/shrinking-ai-to-fit-the-real-world-assistant-ambuj-varshney-receives-2026-google-research-award/" target="_blank" rel="noopener noreferrer">Shrinking AI to Fit the Real World</a></h3>
     <p class="award-detail">Our lab's featured work on <a href="https://tinyllm.org" target="_blank" rel="noopener noreferrer">TinyLLM</a> - Small language models for edge devices, awarded 2026 Google Research Award in ML</p>

@@ -3,7 +3,7 @@ layout: project
 title: AudioCast
 short_title: AudioCast
 description: "Sub-200 µW audio-broadcasting tags with range up to 130 m"
-img: assets/img/publication_preview/audiocast_pcb.png
+img: assets/img/projects/audiocast_field.jpg
 video: https://www.youtube.com/embed/Vu1L44KsKcY
 video_caption: AudioCast demo
 importance: 2

@@ -8,9 +8,9 @@
   </a>
   <div class="project-card-body">
     <div class="project-card-meta">
+      <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
       <span class="project-year">{{ project.year }}</span>
     </div>
-    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
     <p class="project-detail">{{ project.description }}</p>
     {% if project.venues %}
       <div class="project-venues">

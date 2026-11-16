@@ -3,7 +3,7 @@ layout: project
 title: HILO
 short_title: HILO
 description: "210 µW dual-band radios for reliable communication"
-img: assets/img/publication_preview/hilo_pcb.png
+img: assets/img/projects/hilo_board.png
 # video: https://www.youtube.com/embed/VIDEO_ID   # or a local file, e.g. assets/video/m2.mp4
 # video_caption: Demo video
 importance: 3

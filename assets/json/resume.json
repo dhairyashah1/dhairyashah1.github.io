@@ -37,7 +37,7 @@
       "startDate": "2024-08",
       "endDate": "Present",
       "courses": [
-        "Advisor: Prof. Ambuj Varshney",
+        "Advisor: <a href=\"https://ambuj.se\" target=\"_blank\" rel=\"noopener noreferrer\">Prof. Ambuj Varshney</a>",
         "Thesis: Standalone Microwatt Radios for Communication and Sensing, and the AI Agents that Build Them",
         "Courses: Advanced Topics in Wireless Communications, Advanced Topics in Computer Systems, Advanced Topics in Computer Networks, Advanced Topics in HCI, Embedded Software Design, Intelligent Robots",
         "Teaching: CS4222/5422 Wireless Networking (Spring '25, '26)"
@@ -67,7 +67,9 @@
       "endDate": "2025-08",
       "summary": "Built a distributed edge–cloud framework to deploy multimodal sensory LLM pipelines on embedded devices for low-latency, privacy-preserving health applications.",
       "highlights": [
-        "Advisors: Chulhong Min, Fahim Kawsar"
+        "On-device AI",
+        "Multi-modal sensory LLMs",
+        "Distributed systems"
       ]
     },
     {
@@ -79,7 +81,9 @@
       "endDate": "2024-08",
       "summary": "Built PixelGen, a low-power embedded camera platform for XR devices that pairs low-resolution image and environmental sensors with local generative models to generate high-resolution visuals.",
       "highlights": [
-        "Advisor: Prof. Ambuj Varshney"
+        "Embedded systems",
+        "Low-power RF communication",
+        "XR systems"
       ]
     },
     {
@@ -91,7 +95,9 @@
       "endDate": "2023-09",
       "summary": "Developed a mmWave joint communication-and-sensing testbed with phased-array beamforming and fast electronic beam steering (20 ms/beam; full spatial scan < 1.26 s).",
       "highlights": [
-        "Advisors: Prof. Haitham Al Hassanieh, Junfeng Guan"
+        "mmWave beamforming",
+        "Joint communication and sensing",
+        "Phased array systems"
       ]
     },
     {
@@ -103,7 +109,8 @@
       "endDate": "2023-06",
       "summary": "Contributed to Espressif's firmware stack for Matter-enabled IoT devices.",
       "highlights": [
-        "Team: ESP-Matter Development Team"
+        "Embedded software",
+        "Matter protocol"
       ]
     },
     {
@@ -115,7 +122,8 @@
       "endDate": "2022-08",
       "summary": "Developed a multimodal synchronization platform for precise alignment of audio and biosensory streams.",
       "highlights": [
-        "Advisor: Prof. Jérémie Voix"
+        "Bio-sensing",
+        "Signal processing"
       ]
     },
     {
@@ -127,7 +135,9 @@
       "endDate": "2021-11",
       "summary": "Worked on RISC-V (RV64GC) porting and regression testing of SpiderMonkey's Baseline JIT compiler.",
       "highlights": [
-        "Organization: RISC-V"
+        "RISC-V",
+        "JIT compilers",
+        "Open-source development"
       ]
     }
   ],
@@ -210,7 +220,7 @@
     {
       "organization": "Graduate Students Society (GSS), NUS",
       "position": "Director of Community Affairs",
-      "url": "https://nusgss.com",
+      "url": "https://www.nusgss.com/gss-team-40",
       "startDate": "2025-08",
       "endDate": "2026-06",
       "summary": "",
@@ -219,7 +229,7 @@
     {
       "organization": "Graduate Students Society (GSS), NUS",
       "position": "Creativity Secretary",
-      "url": "https://nusgss.com",
+      "url": "https://www.nusgss.com/gss-team-39",
       "startDate": "2024-08",
       "endDate": "2025-06",
       "summary": "",

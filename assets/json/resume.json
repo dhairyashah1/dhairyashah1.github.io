@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Dhairya Shah",
-    "label": "PhD Student in Computer Science",
+    "label": "Wireless Systems Researcher",
     "image": "",
     "email": "dhairya@u.nus.edu",
-    "phone": "+91 9769016020",
+    "phone": "+65 8953 6059",
     "url": "https://dhairyashah1.github.io/",
-    "summary": "Embedded Systems and Wireless Communications Researcher",
+    "summary": "PhD student in Computer Science at the National University of Singapore, working on standalone microwatt radios for communication and sensing, and the AI agents that build them.",
     "location": {
       "address": "#02-17, Systems and Networking Lab, COM3, National University of Singapore",
       "postalCode": "119391",
@@ -16,319 +16,223 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "Dhairya110501",
-        "url": "https://twitter.com/Dhairya110501"
+        "network": "LinkedIn",
+        "username": "dhairya-j-shah",
+        "url": "https://www.linkedin.com/in/dhairya-j-shah/"
+      },
+      {
+        "network": "GitHub",
+        "username": "dhairyashah1",
+        "url": "https://github.com/dhairyashah1"
       }
     ]
   },
-    "education": [
+  "education": [
     {
       "institution": "National University of Singapore (NUS)",
       "location": "Singapore",
       "url": "https://www.comp.nus.edu.sg/",
       "area": "Computer Science",
-      "studyType": "PhD",
-      "startDate": "2024-08-01",
-      "endDate": "present",
-      "score": "10",
-      "courses": ["Advanced Topics in Computer Networks", "Advanced Topics in HCI", "Embedded Software Design", "Intelligent Robots"]
+      "studyType": "Ph.D.",
+      "startDate": "2024-08",
+      "endDate": "Present",
+      "courses": [
+        "Advisor: Prof. Ambuj Varshney",
+        "Thesis: Standalone Microwatt Radios for Communication and Sensing, and the AI Agents that Build Them",
+        "Courses: Advanced Topics in Wireless Communications, Advanced Topics in Computer Systems, Advanced Topics in Computer Networks, Advanced Topics in HCI, Embedded Software Design, Intelligent Robots",
+        "Teaching: CS4222/5422 Wireless Networking (Spring '25, '26)"
+      ]
     },
-        {
+    {
       "institution": "Veermata Jijabai Technological Institute (VJTI)",
       "location": "Mumbai, India",
       "url": "https://vjti.ac.in/",
-      "area": "Electronics and Telecommunications Engineering",
+      "area": "Electronics and Telecommunication Engineering",
       "studyType": "B.Tech",
-      "startDate": "2023-06-01",
-      "endDate": "2019-08-01"
-      // "score": "10",
-      // "courses": ["Advanced Topics in Computer Networks", "Advanced Topics in HCI", "Embedded Software Design", "Intelligent Robots"]
+      "startDate": "2019-08",
+      "endDate": "2023-06",
+      "courses": [
+        "CPI: 9.75/10",
+        "University Rank 1/756: highest CPI across all B.Tech majors"
+      ]
     }
   ],
   "work": [
     {
-      "name": "Nokia Bell Labs, Cambridge, UK",
+      "name": "Nokia Bell Labs",
+      "location": "Cambridge, UK",
       "position": "Research Intern",
       "url": "https://www.nokia.com/bell-labs/about/locations/cambridge-uk/",
-      "startDate": "2025-05-20",
-      "endDate": "2025-08-20",
-      "summary": "Designed a distributed edge-cloud framework to deploy multi-modal sensory (LLMs) on resource-constrained devices with minimal cloud dependency.",
-      "highlights": ["On-device AI", "Multi-modal sensory LLMs", "Distributed systems"]
+      "startDate": "2025-05",
+      "endDate": "2025-08",
+      "summary": "Built a distributed edge–cloud framework to deploy multimodal sensory LLM pipelines on embedded devices for low-latency, privacy-preserving health applications.",
+      "highlights": [
+        "Advisors: Chulhong Min, Fahim Kawsar"
+      ]
     },
     {
       "name": "WEISER Group, National University of Singapore",
+      "location": "Singapore",
       "position": "Research Assistant",
       "url": "https://weiserlab.github.io/ambuj/",
-      "startDate": "2023-11-01",
-      "endDate": "2024-08-01",
-      "summary": "Designed energy-efficient communication and embedded AI (PixelGen) camera architectures for extended-reality devices.",
-      "highlights": ["Embedded systems", "Low-power RF communication", "XR systems"]
+      "startDate": "2023-11",
+      "endDate": "2024-08",
+      "summary": "Built PixelGen, a low-power embedded camera platform for XR devices that pairs low-resolution image and environmental sensors with local generative models to generate high-resolution visuals.",
+      "highlights": [
+        "Advisor: Prof. Ambuj Varshney"
+      ]
     },
     {
-      "name": "SENS Lab, EPFL, Switzerland",
+      "name": "SENS Lab, EPFL",
+      "location": "Lausanne, Switzerland",
       "position": "Summer@EPFL Research Intern",
       "url": "https://sens.epfl.ch",
-      "startDate": "2023-06-20",
-      "endDate": "2023-09-20",
-      "summary": "Engineered a software-defined mmWave testbed for Joint Communication and Sensing (JCAS), implementing optimized beamforming codebooks to enable rapid spatial scanning.",
-      "highlights": ["mmWave beamforming", "Joint communication and sensing", "Phased array systems"]
+      "startDate": "2023-06",
+      "endDate": "2023-09",
+      "summary": "Developed a mmWave joint communication-and-sensing testbed with phased-array beamforming and fast electronic beam steering (20 ms/beam; full spatial scan < 1.26 s).",
+      "highlights": [
+        "Advisors: Prof. Haitham Al Hassanieh, Junfeng Guan"
+      ]
     },
     {
-      "name": "CRITIAS Lab, ETS Montreal, Canada",
-      "position": "Research Intern",
-      "url": "http://critias.etsmtl.ca/team/",
-      "startDate": "2022-05-20",
-      "endDate": "2022-08-10",
-      "summary": "Developed a multi-stream synchronization platform ensuring precise temporal alignment between high-fidelity audio and heterogeneous bio-sensory data.",
-      "highlights": ["Bio-sensing", "Signal processing"]
-    },
-    {
-      "name": "Espressif Systems, India",
+      "name": "Espressif Systems",
+      "location": "Pune, India",
       "position": "Embedded Software Intern",
       "url": "https://www.espressif.com/en",
-      "startDate": "2022-12-20",
-      "endDate": "2023-06-10",
-      "summary": "Developed firmware and SDK enhancements for Matter-enabled IoT devices, contributing feature implementations and fixes to the esp-matter open-source repository.",
-      "highlights": ["Embedded software", "Matter protocol"]
-    }
-  ],
-  // "volunteer": [
-  //   {
-  //     "organization": "People's Climate March",
-  //     "location": "Zurich, Switzerland",
-  //     "position": "Lead Organizer",
-  //     "url": "https://example.com",
-  //     "startDate": "2014-04-01",
-  //     "endDate": "2015-07-01",
-  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-  //   }
-  // ],
-
-  "awards": [
-    {
-      "title": "UbiComp 2025 Travel Grant",
-      "date": "2025-09",
-      "awarder": "ACM and NUS",
-      "url": "https://www.ubicomp.org/ubicomp-iswc-2025/"
-      // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "startDate": "2022-12",
+      "endDate": "2023-06",
+      "summary": "Contributed to Espressif's firmware stack for Matter-enabled IoT devices.",
+      "highlights": [
+        "Team: ESP-Matter Development Team"
+      ]
     },
     {
-      "title": "MobiCom 2024 Travel Grant",
-      "date": "2024-10",
-      "awarder": "NUS",
-      "url": "https://www.sigmobile.org/mobicom/2024/"      // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "name": "CRITIAS Lab, École de Technologie Supérieure",
+      "location": "Montreal, Canada",
+      "position": "Research Intern",
+      "url": "http://critias.etsmtl.ca/team/",
+      "startDate": "2022-05",
+      "endDate": "2022-08",
+      "summary": "Developed a multimodal synchronization platform for precise alignment of audio and biosensory streams.",
+      "highlights": [
+        "Advisor: Prof. Jérémie Voix"
+      ]
     },
     {
-      "title": "Best Demonstration Runner-Up Award",
-      "date": "2024-05",
-      "awarder": "ACM/IEEE IPSN 2024",
-      "url": "https://ipsn.acm.org/2024/"      // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    },
-    {
-      "title": "NUS Research Fellowship",
-      "date": "2024-03",
-      "awarder": "NUS School of Computing",
-      "url": "https://www.comp.nus.edu.sg/",
-      "summary": "Awarded a four-year fellowship to pursue doctoral studies at NUS"
-    },
-    {
-      "title": "Summer@EPFL Fellowship",
-      "date": "2023",
-      "awarder": "EPFL Switzerland",
-      "url": "https://summer.epfl.ch/",
-      "summary": "Awarded a 3-month fellowship to conduct research at EPFL (1.5% acceptance rate)"
-    },
-    {
-      "title": "Mitacs Globalink Fellowship",
-      "date": "2022",
-      "awarder": "ETS Montreal, Canada",
-      "url": "https://www.mitacs.ca/our-programs/globalink-research-internship-students/",
-      "summary": "Awarded a 3-month fellowship to conduct research at ETS Montreal, Canada"
-    },
-    {
-      "title": "Director's Gold Medal",
-      "date": "2023",
-      "awarder": "VJTI Mumbai, India",
-      "url": "https://vjti.ac.in/",
-      "summary": "University Rank: 1/756 - Secured highest CPI across all B.Tech majors"
-    },
-    {
-      "title": "Baroda Acheivers Award",
-      "date": "2023",
-      "awarder": "Bank of Baroda",
-      // "url": "https://vjti.ac.in/",
-      "summary": "Awarded scholarship for top academic performance throughout B.Tech"
-    },
-    {
-      "title": "Linux Foundation Fellowship",
-      "date": "2021",
-      "awarder": "The Linux Foundation",
+      "name": "The Linux Foundation",
+      "location": "Remote",
+      "position": "Open Source Developer",
       "url": "https://mentorship.lfx.linuxfoundation.org/project/fb9e1ba6-d6ed-40b5-82b5-ee1089ef050a",
-      "summary": "Awarded open-source fellowship to contribute to RISC-V"
+      "startDate": "2021-09",
+      "endDate": "2021-11",
+      "summary": "Worked on RISC-V (RV64GC) porting and regression testing of SpiderMonkey's Baseline JIT compiler.",
+      "highlights": [
+        "Organization: RISC-V"
+      ]
     }
   ],
-  // "awards": [
-  //   {
-  //     "name": "UbiComp Travel Grant",
-  //     "date": "2025",
-  //     "issuer": "ACM",
-  //     // "url": "https://example.com",
-  //     "icon": "fa-solid fa-location-dot"
-  //   },
-  //   {
-  //     "name": "Quantum Computing",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-tag"
-  //   },
-  //   {
-  //     "name": "Quantum Information",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-envelope"
-  //   },
-  //   {
-  //     "name": "Quantum Cryptography",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-hashtag"
-  //   },
-  //   {
-  //     "name": "Quantum Communication",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-calendar"
-  //   },
-  //   {
-  //     "name": "Quantum Teleportation",
-  //     "date": "2018-01-01",
-  //     "issuer": "Stanford University",
-  //     "url": "https://example.com",
-  //     "icon": "fa-solid fa-clipboard-check"
-  //   }
-  // ],
-  // "publications": [
-  //   {
-  //     "name": "Zur Elektrody/namik bewegter Körper",
-  //     "publisher": "Annalen der Physik",
-  //     "releaseDate": "1905-06-30",
-  //     "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-  //     "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-  //   },
-  //   {
-  //     "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-  //     "publisher": "Annalen der Physik",
-  //     "releaseDate": "1905-03-18",
-  //     "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-  //     "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-  //   },
-  //   {
-  //     "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-  //     "publisher": "Annalen der Physik",
-  //     "releaseDate": "1916-03-20",
-  //     "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-  //     "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-  //   }
-  // ],
   "skills": [
     {
+      "name": "RF & Wireless",
+      "icon": "fa-solid fa-tower-broadcast",
+      "keywords": [
+        "Low-power transceiver design",
+        "Backscatter",
+        "mmWave beamforming",
+        "RF sensing (ISAC)",
+        "Li-Fi"
+      ]
+    },
+    {
+      "name": "Protocols",
+      "icon": "fa-solid fa-network-wired",
+      "keywords": [
+        "BLE",
+        "Wi-Fi",
+        "LoRa",
+        "Zigbee",
+        "Matter"
+      ]
+    },
+    {
+      "name": "Platforms",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "MSP430",
+        "ESP32",
+        "STM32",
+        "Ambiq Apollo",
+        "MR headsets: Meta Quest, Xreal glasses"
+      ]
+    },
+    {
+      "name": "Hardware & Test",
+      "icon": "fa-solid fa-screwdriver-wrench",
+      "keywords": [
+        "KiCad, Altium",
+        "LTspice, ADS/HFSS",
+        "SDRs",
+        "Spectrum analyzer, VNA",
+        "Oscilloscope"
+      ]
+    },
+    {
       "name": "Languages",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-code",
       "keywords": [
         "C",
         "C++",
         "Python",
-        "Kotlin",
-        "Matlab",
-        "P4"
+        "MATLAB"
       ]
     },
     {
-      "name": "Frameworks",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Software & AI",
+      "icon": "fa-solid fa-robot",
       "keywords": [
-        "ESP-IDF", "gnuradio", "ROS", "Gazebo", "riscv-gnu-toolchain"
-      ]
-    },
-    {
-      "name": "Technologies",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-       "GNU Make", "CMake", "ESP32", "STM32", "Arduino", "Raspberry Pi", "MSP430", "Apollo Ambiq"
-      ]
-    },
-    {
-      "name": "Softwares",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-       "GNUOctave", "Eagle", "KiCAD", "Multisim", "Logisim", "Proteus", "CANopen", "ISPSoft"
+        "PyTorch",
+        "GNU Radio",
+        "Signal processing",
+        "LLM agents with hardware-in-the-loop"
       ]
     }
   ],
-  // "languages": [
-  //   {
-  //     "language": "German",
-  //     "fluency": "Native speaker",
-  //     "icon": ""
-  //   },
-  //   {
-  //     "language": "English",
-  //     "fluency": "Fluent",
-  //     "icon": ""
-  //   }
-  // ],
-  // "interests": [
-  //   {
-  //     "name": "Physics",
-  //     "icon": "fa-solid fa-tag",
-  //     "keywords": [
-  //       "Quantum Mechanics",
-  //       "Quantum Computing",
-  //       "Quantum Information",
-  //       "Quantum Cryptography",
-  //       "Quantum Communication",
-  //       "Quantum Teleportation"
-  //     ]
-  //   }
-  // ],
-  // "references": [
-  //   {
-  //     "name": "Professor John Doe",
-  //     "icon": "fa-solid fa-laptop",
-  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-  //   },
-  //   {
-  //     "name": "Professor John Doe",
-  //     "icon": "fa-solid fa-thumbtack",
-  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-  //   }
-  // ],
-  "projects": [
+  "volunteer": [
     {
-      "name": "AudioCast",
-      "summary": "AudioCast is a novel \"Beyond-Backscatter\" transmitter utilizing tunnel diode oscillators to enable microwatt-scale, long-range communication compatible with commodity receivers.",
-      "highlights": ["Beyond-Backscatter", "Tunnel Diode Oscillator", "Ultra-low Power Wireless"],
-      "startDate": "2025",
-      "endDate": " ",
-      "url": "https://github.com/weiserlab/AudioCast"
+      "organization": "ACM S3 Workshop, MobiCom '26",
+      "position": "Technical Program Committee Reviewer",
+      "url": "https://s3-workshop.neslab.it/",
+      "startDate": "2026",
+      "endDate": "2026",
+      "summary": "",
+      "highlights": []
     },
     {
-      "name": "PixelGen",
-      "summary": "PixelGen is a distributed low-power embedded AI camera system for mixed-reality that leverages generative AI to reconstruct high-fidelity environments from low-resolution, multi-modal sensor data.",
-      "highlights": ["Generative AI", "Low-power Sensing", "Mixed Reality"],
-      "startDate": "2024",
-      "endDate": " ",
-      "url": "https://github.com/weiserlab/PixelGen"
+      "organization": "Graduate Students Society (GSS), NUS",
+      "position": "Director of Community Affairs",
+      "url": "https://nusgss.com",
+      "startDate": "2025-08",
+      "endDate": "2026-06",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "Graduate Students Society (GSS), NUS",
+      "position": "Creativity Secretary",
+      "url": "https://nusgss.com",
+      "startDate": "2024-08",
+      "endDate": "2025-06",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "Society of Robotics and Automation (SRA), VJTI",
+      "position": "Joint General Secretary & Treasurer",
+      "url": "https://sravjti.in/",
+      "startDate": "2020-06",
+      "endDate": "2022-06",
+      "summary": "",
+      "highlights": []
     }
   ]
 }
